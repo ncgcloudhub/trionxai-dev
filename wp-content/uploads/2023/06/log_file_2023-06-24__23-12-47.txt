@@ -1,0 +1,30 @@
+
+---Downloaded files---
+The import files for: Magazine Demo were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://trionxai.com
+Data file = /home/triotbdw/public_html/wp-content/uploads/2023/06/demo-content-import-file_2023-06-24__23-12-47.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/after_import---
+

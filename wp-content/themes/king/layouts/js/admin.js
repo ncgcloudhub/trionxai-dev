@@ -1,0 +1,3 @@
+html2element:(function($){'use strict';$(document).ready(function($){$(document).on('change','[data-key="field_60afcaf36c797"] .acf-input input',function(e){e.preventDefault();var target=$(this);var checked=target.prop('checked');if(!checked){return;}
+var parent=target.parents().eq(6);var id=target.prop('id');var key=target.closest('.acf-field').attr('data-key');var list=parent.find('[data-key="'+key+'"] .acf-input input').not('[data-key="'+key+'"] input[type="hidden"]').not('.acf-clone [data-key="'+key+'"] input');if(list.length==1){return;}
+for(var i=0;i<list.length;i++){var item_id=list[i].getAttribute('id');if(id!=item_id){list[i].checked=false;}}});});})(jQuery);

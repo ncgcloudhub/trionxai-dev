@@ -1,0 +1,30 @@
+2023-10-09T05:52:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "chatgpt_settings_page_html" not found or invalid function name in /home/triotbdw/dev.trionxai.com/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/triotbdw/dev.trionxai.com/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#1 /home/triotbdw/dev.trionxai.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#2 /home/triotbdw/dev.trionxai.com/wp-admin/admin.php(259): do_action()
+#3 {main}
+  thrown in /home/triotbdw/dev.trionxai.com/wp-includes/class-wp-hook.php on line 310
+
+2023-10-09T07:03:44+00:00 CRITICAL Uncaught Error: Failed opening required '/home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/settings.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php:14
+Stack trace:
+#0 /home/triotbdw/dev.trionxai.com/wp-admin/includes/plugin.php(2318): include_once()
+#1 /home/triotbdw/dev.trionxai.com/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape()
+#2 /home/triotbdw/dev.trionxai.com/wp-admin/plugins.php(58): activate_plugin()
+#3 {main}
+  thrown in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php on line 14
+
+2023-10-09T07:03:46+00:00 CRITICAL Uncaught Error: Failed opening required '/home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/settings.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php:14
+Stack trace:
+#0 /home/triotbdw/dev.trionxai.com/wp-admin/includes/plugin.php(2318): include_once()
+#1 /home/triotbdw/dev.trionxai.com/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php on line 14
+
+2023-10-09T07:03:47+00:00 CRITICAL Uncaught Error: Failed opening required '/home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/settings.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php:14
+Stack trace:
+#0 /home/triotbdw/dev.trionxai.com/wp-admin/includes/plugin.php(2318): include_once()
+#1 /home/triotbdw/dev.trionxai.com/wp-admin/plugins.php(192): plugin_sandbox_scrape()
+#2 {main}
+  thrown in /home/triotbdw/dev.trionxai.com/wp-content/plugins/chatbot-chatgpt-trionxai/chatbot-chatgpt-trionxai.php on line 14
+

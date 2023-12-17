@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<memberpressusermanual><![CDATA[Support Home ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Pre-Sales ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Getting Started]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Using MemberPress ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Extensions ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Advanced Topics ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[How To FAQ's]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Configuring the Account tab]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[The "Account" tab in "Settings" is used for configuring member information. Below is a description of these options based on their title.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Permissions]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Disable the WordPress admin bar for members - Typically when you log in to WordPress, a thin black bar shows at the top of the page allowing members to access the dashboard area or their profiles. Enabling this option will hide that bar from members. Be aware that users with a role greater than "subscriber" will still be able to see it. This option can be overridden by other plugins that force the bar to show, such as BuddyPress.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Keep members out of the WordPress Dashboard - Enabling this setting will prevent users from accessing the wp-admin dashboard area. When they attempt to access the dashboard they will be redirected to the URL you set for "URL to direct users to after Login".]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Allow members to Cancel their own subscriptions - Enabling this will create a "cancel" link on your account page that gives your users the ability to cancel their recurring subscriptions. This is useful to allow them to prevent future charges. By canceling, users will lose access to your protected content when their current transaction/subscription is set to expire and will be required to sign up again for that membership. If you would like a user to lose access immediately, you must delete their subscription manually.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Allow members to Pause & Resume their subscriptions - If you use PayPal or Stripe as a gateway, you can use this option to create links for "pause" or "resume" on your account page, allowing your users to pause and resume their subscriptions. The link will show up as "pause" if the user has not yet paused, or "resume" if they have paused their subscription.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[NOTE: if you enable this setting, be aware that when a user pauses their subscription, they will continue to have access until their current subscription reaches its expiration date. For example, if a user pauses on the 15th of the month, but their current transaction is set to expire on the 20th, they will have access until the 20th, at which point they will lose access until they resume.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Registration]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Password Strength Meter - This option has a drop-down menu that allows you to either enable or disable password strength on your registration form and set what level of strength you would like to require. It can be set to Hide, Show, Show, and Require Weak Password or Stronger, Show and Require Medium Password or Stronger, or Show and Require Strong Password or Stronger. This setting can be critical to security, as vulnerabilities are found in WordPress that allows a Subscriber role user to gain administrative rights. Therefore, it's imperative that subscribers have good passwords to make it harder for hackers to find their way in. For most sites, setting the "medium password or stronger" is sufficient.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[NOTE: Password strength is based on the password entropy and commonly used words. MemberPress uses the password strength meter developed by Dropbox called zxcvbn. For more details on how this password strength meter works please visit their official documentation.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Disable the standard WordPress registration form - If you have "Anyone Can Register" enabled in the WordPress General Settings, but don't want to allow users to register through the WordPress registration form, enable this option. Once enabled, an error message will show on the registration page informing the member that they should look for the proper registration page on your actual website. Remember, this option has no effect when "Anyone Can Register" is disabled. Enabling "Anyone Can Register" is NOT required for MemberPress signups to work.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Enable Coupon Field on membership registration forms - This option must be enabled if you would like your new members to use coupons. Many users want to disable the coupon field for one of two reasons: 1) To make the signup form smaller/simpler and 2) to discourage people from scouring the internet for coupon codes. So, make sure your users know that if they want to use a coupon (and you don't actively have it on the form) they can add it to the URL of the registration page by adding "?coupon=CODEHERE". For example, if your registration page is at yoursite.com/register/premium, you could tell the user, in order to apply the coupon, they must add that text to the end of the URL. It should look like: yoursite.com/register/premium/?coupon=your-coupon, where "your-coupon" is the valid coupon code you sent them. The coupon field is hidden by default, so if you want to have it initially open, you should check out this tutorial.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Members must use their email address for their User Name - This is a great feature if you want to make things easier for your users, as they won't have to remember a distinct username when logging in. This setting also removes one more field from the registration form, making it simpler for your members to register.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Pro-rate subscription prices when a member upgrades - This option only works if you have created a group that is an upgrade path. If enabled, the user's transaction for the upgrade will be prorated. This also works to give users "credit" to a subscription if they want to downgrade instead, meaning if the current subscription is $10 a month and they downgrade right after purchasing to a subscription that is $5 a month, they'll have access for two months to that lower subscription before their next $5 charge. Simply put, one payment of $10 translates into two payments of $5 (MemberPress will automatically calculate the difference if the downgrade occurs anytime within the current subscription).]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Disable the 1 day grace period after signup - Most payment gateways take anywhere from 0-24 hours to process payments. This setting ensures that your user will have access to your site right after registration is completed by creating a temporary transaction in MemberPress. MemberPress will verify the credit card details before a grace period is allowed in order to cut down on scammers using fake credit card numbers to get temporary free access. Disabling the grace period requires the payment to finish processing before the user is allowed to access the content. We recommend leaving this option enabled (unchecked) for the best user experience. ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Disable Password Fields on membership registration forms - This will remove the Password and Password Confirmation fields from the signup form, making it quicker and easier for your members to register. They will instead receive an email in their inbox with a link to set their own password.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Require Terms of Service on membership registration forms - This option will allow you to show a checkbox with a link to your Terms Of Service (TOS) page. Once enabled, the member cannot sign up for your site until they have checked the box. When you enable this option, two other options will appear: (1) URL to your TOS page is the URL to the page where you have your TOS available for the member to read; (2) TOS Checkbox Title is the words that will appear next to the checkbox. If you'd like to call this a "Signup Agreement" rather than "Terms Of Service" you can specify that here.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Enable Single Page Checkout - By default MemberPress is a 2-step checkout process. Enable this option to make the checkout process a single step instead. This setting is most beneficial for credit card methods like Stripe and Authorize.net. Please note, that not all payment gateways will support a single-page checkout experience. More Info]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Enable Single Page Checkout Invoice - This feature creates an invoice during the checkout process and will show taxes if there are taxes enabled on your site.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Require Privacy Policy acceptance on membership registration forms - This option will allow you to show a checkbox with a link to your Privacy Policy page, which is important for GDPR and other regulatory requirements. Once enabled, the member cannot sign up for your site until they have checked the box. When you enable this option, two items appear beneath it. The first is the URL to your Privacy Policy. This URL cannot be changed in our settings, but must be set in the WordPress > Settings > Privacy page instead. The second is the Title of your Privacy Policy checkbox. You can change this text however you'd like, but leave the two %'s in the text. The text between the two %'s will be linked to your privacy policy.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Login & Logout]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Force WordPress to use the MemberPress login page - Use this option to override WordPress links to /wp-login.php and instead use the Login page you have specified for MemberPress. If you have other plugins that also use their own Login pages, you may want to leave this option disabled. This option is great for the popular BAW Login/Logout menu plugin.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[URL to direct users to after Login - Most of the time you'll want to point this to the Account page for your members. But if for some reason you want to send your members to a different page after they log in, you can specify that URL here. The URL should include the http:// at the front (e.g., http://mysite.com/account/). This feature can be overridden if you have custom login redirects for your memberships set in the "Advanced" tab of your memberships.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[URL to direct users to after Logout - Use this to set where you want your users to be redirected to after they log out of your site (this also applies to Administrators). This could be set to direct users a number of ways. For example, you could direct users to a page with products you'd like to increase sales on, a page with a message such as, "Thanks for visiting my site, I hope to see you again soon!", or simply back to the login page.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Account Page Welcome Message - Use this to show a message to each member at the top of their Account page. This is a great place to share special instructions or recent news.]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Did this answer your question?]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Last updated on September 29, 2023]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Search]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Toggle Search]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[CATEGORIES]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Installation and Upgrading]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Configuring Settings ]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[Supported Payment Gateways]]></memberpressusermanual>
+	</node>
+	<node>
+		<memberpressusermanual><![CDATA[© MemberPress 2023. Powered by Help Scout]]></memberpressusermanual>
+	</node>
+</data>

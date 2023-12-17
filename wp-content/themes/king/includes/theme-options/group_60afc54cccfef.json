@@ -1,0 +1,436 @@
+{
+    "key": "group_60afc54cccfef",
+    "title": "Trivia Quiz",
+    "fields": [
+        {
+            "key": "field_60afc56a4924f",
+            "label": "Quiz Questions",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60afc5cb49251",
+            "label": "Questions",
+            "name": "quiz_questions",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "king-repeater",
+                "id": ""
+            },
+            "collapsed": "field_60afc61249252",
+            "min": 1,
+            "max": 30,
+            "layout": "block",
+            "button_label": "Add New",
+            "sub_fields": [
+                {
+                    "key": "field_60afc61249252",
+                    "label": "Question",
+                    "name": "quiz_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60afc76a49254",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_60afc5cb49251"
+                },
+                {
+                    "key": "field_60afc76a49254",
+                    "label": "Hide Quiz title",
+                    "name": "hide_quiz_title",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60afc6a449253",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "parent_repeater": "field_60afc5cb49251"
+                },
+                {
+                    "key": "field_60afc6a449253",
+                    "label": "Image",
+                    "name": "quiz_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "uploadedTo",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": 5,
+                    "mime_types": "jpg, jpeg, png, gif,",
+                    "parent_repeater": "field_60afc5cb49251"
+                },
+                {
+                    "key": "field_60afc8e93975d",
+                    "label": "Answers Style",
+                    "name": "quiz_answers_style",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "poll-radio",
+                        "id": ""
+                    },
+                    "choices": {
+                        "pollgrid-1": "<i class=\"fas fa-bars\"><\/i>",
+                        "pollgrid-2": "<i class=\"fas fa-th-large\"><\/i>",
+                        "pollgrid-3": "<i class=\"fas fa-grip-horizontal\"><\/i>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "vertical",
+                    "return_format": "value",
+                    "save_other_choice": 0,
+                    "parent_repeater": "field_60afc5cb49251"
+                },
+                {
+                    "key": "field_60afc95c3975e",
+                    "label": "Answers",
+                    "name": "quiz_grid_answers",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "85",
+                        "class": "dflex",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 2,
+                    "max": 20,
+                    "layout": "block",
+                    "button_label": "add answer",
+                    "sub_fields": [
+                        {
+                            "key": "field_60afc9b33975f",
+                            "label": "Answer Image",
+                            "name": "quiz_answer_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_60afc8e93975d",
+                                        "operator": "==",
+                                        "value": "pollgrid-2"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_60afc8e93975d",
+                                        "operator": "==",
+                                        "value": "pollgrid-3"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 5,
+                            "mime_types": "",
+                            "parent_repeater": "field_60afc95c3975e"
+                        },
+                        {
+                            "key": "field_60afca756c796",
+                            "label": "Answer",
+                            "name": "quiz_answer",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": 200,
+                            "parent_repeater": "field_60afc95c3975e"
+                        },
+                        {
+                            "key": "field_60afcaf36c797",
+                            "label": "",
+                            "name": "quiz_correct",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": "qcorrect"
+                            },
+                            "message": "Correct",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "parent_repeater": "field_60afc95c3975e"
+                        }
+                    ],
+                    "rows_per_page": 20,
+                    "parent_repeater": "field_60afc5cb49251"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_60afc5a049250",
+            "label": "Quiz Results",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60afe3a831738",
+            "label": "Results",
+            "name": "quiz_results",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "king-repeater",
+                "id": ""
+            },
+            "collapsed": "field_60afe5223173b",
+            "min": 1,
+            "max": 30,
+            "layout": "block",
+            "button_label": "Add",
+            "sub_fields": [
+                {
+                    "key": "field_60afe3e731739",
+                    "label": "Low",
+                    "name": "result_range_low",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "%",
+                    "min": 0,
+                    "max": 100,
+                    "step": "",
+                    "parent_repeater": "field_60afe3a831738"
+                },
+                {
+                    "key": "field_60afe4a33173a",
+                    "label": "High",
+                    "name": "result_range_high",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "%",
+                    "min": 0,
+                    "max": 100,
+                    "step": "",
+                    "parent_repeater": "field_60afe3a831738"
+                },
+                {
+                    "key": "field_60afe5223173b",
+                    "label": "Result",
+                    "name": "quiz_result",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "70",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_60afe3a831738"
+                },
+                {
+                    "key": "field_60afe54d3173c",
+                    "label": "Result Image",
+                    "name": "quiz_result_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "uploadedTo",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": 5,
+                    "mime_types": "jpg, jpeg, png, gif,",
+                    "parent_repeater": "field_60afe3a831738"
+                },
+                {
+                    "key": "field_60afe5933173d",
+                    "label": "Description",
+                    "name": "quiz_result_description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": 800,
+                    "rows": 6,
+                    "new_lines": "",
+                    "parent_repeater": "field_60afe3a831738"
+                }
+            ],
+            "rows_per_page": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "trivia"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816101
+}

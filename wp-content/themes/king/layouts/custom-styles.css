@@ -1,0 +1,77 @@
+/* Typography
+--------------------------*/
+/* ------CustomCSS------ */
+.ad-area {
+
+border:2px dashed #ccd6dd;
+background-image: url(https://wordpress.kingthemes.net/main/wp-content/uploads/headafter.png);
+background-repeat:repeat-y;
+background-position:15%;
+padding:30px;
+border-radius:4px;
+font-size:18px;
+text-align:center;
+}
+.king-night .ad-area {
+border-color:#303030;
+}
+.list-item-media .instagram-media {
+    height:700px !important;
+}/* ------body------ */
+/* ------header------ */
+.king-hs-button {
+	background-color:#dd3333;}
+.king-hs-close {
+	color:#dd3333;
+}
+.king-top-header {
+	background-color: ;
+	background: -moz-linear-gradient(left,  0%,  100%);
+	background: -webkit-linear-gradient(left,  0%,  100%);
+	background: linear-gradient(to right,  0%,  100%);
+}
+.king-top-header-menu ul ul {
+	background-color: ;
+}
+.king-top-header-menu a {
+	color: ;
+}
+.king-top-header-menu .menu-item-has-children:after {
+	color: ;
+}
+.king-top-header-icons a {
+	color: ;
+	border-color: ;
+}
+.king-bottom-header {
+	background-color: #0a0000;
+}
+.king-bottom-header .king-head-nav .king-head-nav-a,
+.king-bottom-header .king-head-eicons,
+.king-bottom-header .king-rlater,
+.king-bottom-header .king-notify-toggle,
+.king-bottom-header .king-head-nav-a:hover {
+	color: #ffffff;
+}
+.king-bottom-header .king-leftmenu-toggle-v2:before, 
+.king-bottom-header .king-leftmenu-toggle-v2:after, 
+.king-bottom-header .leftmenu-toggle-line {
+	background-color: #ffffff;
+}
+/* ------footer------ */
+.site-footer {
+	background-color:#ddd3b8;	
+}
+/* ------sidebar------ */
+/* ------PostPage------ */
+/* ------KingflixPage------ */
+
+.lr-padding {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.king-nav-dropdown {
+	left: 10%;
+	right: 10%;
+}
+

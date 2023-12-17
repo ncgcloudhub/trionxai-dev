@@ -1,0 +1,1849 @@
+{
+    "key": "group_58bc8b259b335",
+    "title": "Lists",
+    "fields": [
+        {
+            "key": "field_5a53c07ad0754",
+            "label": "Lists",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_57daf9b9334ca",
+            "label": "Length of Hot page",
+            "name": "length_hot",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Hot",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_57dafb25dd912",
+            "label": "Length of Trend page",
+            "name": "length_trend",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Trend",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_57dafc37a5570",
+            "label": "Length of NSFW page",
+            "name": "length_nsfw",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "NSFW",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5903b3a8d050f",
+            "label": "Length of Reactions page",
+            "name": "length_reaction",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Reactions",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5817b2fb6b637",
+            "label": "Length of Users Dashboard",
+            "name": "length_of_users_dashboard",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of Following Users Posts in Dashboard Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Posts",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_57dafbcf93901",
+            "label": "Length of Users Page",
+            "name": "length_users",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Users",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5814fc5ee9ded",
+            "label": "Length of Followers",
+            "name": "length_of_followers",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of followers in profile page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Users",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5814fc80e9dee",
+            "label": "Length of Following Users",
+            "name": "length_of_following",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of Following Users in profile page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Users",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_58150087dea82",
+            "label": "Length of Posts in Profile",
+            "name": "length_of_posts_in_profile",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of User's posts in profile page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Posts",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_58150123c274f",
+            "label": "Length of user's favorited posts",
+            "name": "length_of_users_liked_posts",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of User's favorited posts in profile page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 10,
+            "placeholder": "max 50",
+            "prepend": "Posts",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5a53c092d0755",
+            "label": "Badges",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a53c0da450b0",
+            "label": "Enable User Badges",
+            "name": "enable_user_badges",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable Badges for Users",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a5682dbc9aa0",
+            "label": "Enable Leaderboard Badges",
+            "name": "enable_leaderboard_badges",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a53c0da450b0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable Leaderboard Badges Based Points",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a567199e3d3d",
+            "label": "Leaderboard Badges",
+            "name": "leaderboard_badges",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "You can add max. 10 badges. Rank badges by leaderboard.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a5682dbc9aa0",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5a53c0da450b0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 10,
+            "layout": "table",
+            "button_label": "New Badge for Leaderboard",
+            "sub_fields": [
+                {
+                    "key": "field_5a56757220005",
+                    "label": "Leaderboard Badge Title",
+                    "name": "leaderboard_badge_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "Title",
+                    "append": "",
+                    "maxlength": 50,
+                    "parent_repeater": "field_5a567199e3d3d"
+                },
+                {
+                    "key": "field_5a56759520006",
+                    "label": "Leaderboard Badge Icon",
+                    "name": "leaderboard_badge_icon",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "uploadedTo",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "parent_repeater": "field_5a567199e3d3d"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_5a53c1327f005",
+            "label": "King Badges",
+            "name": "king_badges",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a53c0da450b0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5a53c156ae608": {
+                    "key": "5a53c156ae608",
+                    "name": "badges_for_points",
+                    "label": "Badges For Points",
+                    "display": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a53c2c77f008",
+                            "label": "Badge Icon",
+                            "name": "badge_icon",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 10,
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5a53c26b7f007",
+                            "label": "Badge Min. Point",
+                            "name": "badge_min_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Min",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55dc50522c9",
+                            "label": "Badge Max. Point",
+                            "name": "badge_max_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Max",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a53c21c7f006",
+                            "label": "Badge Title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Text",
+                            "append": "",
+                            "maxlength": 50
+                        },
+                        {
+                            "key": "field_5a5469ee905b9",
+                            "label": "Badge Description",
+                            "name": "badge_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "( optional )",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5a55ddc8a356a": {
+                    "key": "5a55ddc8a356a",
+                    "name": "badges_for_followers",
+                    "label": "Badges For Followers",
+                    "display": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a55ddc8a356c",
+                            "label": "Badge Min. Followers",
+                            "name": "badge_min_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Min",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddc8a356d",
+                            "label": "Badge Max. Followers",
+                            "name": "badge_max_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Max",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddc8a356e",
+                            "label": "Badge Title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Text",
+                            "append": "",
+                            "maxlength": 50
+                        },
+                        {
+                            "key": "field_5a55ddc8a356f",
+                            "label": "Badge Description",
+                            "name": "badge_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "( optional )",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5a55ddc8a356b",
+                            "label": "Badge Icon",
+                            "name": "badge_icon",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 10,
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5a55ddd9a3570": {
+                    "key": "5a55ddd9a3570",
+                    "name": "badges_for_posts",
+                    "label": "Badges For Posts",
+                    "display": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a55ddd9a3572",
+                            "label": "Badge Min. Posts",
+                            "name": "badge_min_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Min",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddd9a3573",
+                            "label": "Badge Max. Posts",
+                            "name": "badge_max_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Max",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddd9a3574",
+                            "label": "Badge Title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Text",
+                            "append": "",
+                            "maxlength": 50
+                        },
+                        {
+                            "key": "field_5a55ddd9a3575",
+                            "label": "Badge Description",
+                            "name": "badge_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "( optional )",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5a55ddd9a3571",
+                            "label": "Badge Icon",
+                            "name": "badge_icon",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 10,
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5a55ddeca3576": {
+                    "key": "5a55ddeca3576",
+                    "name": "badges_for_comments",
+                    "label": "Badges For Comments",
+                    "display": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a55ddeca3578",
+                            "label": "Badge Min. Comments",
+                            "name": "badge_min_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Min",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddeca3579",
+                            "label": "Badge Max. Comments",
+                            "name": "badge_max_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Max",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55ddeca357a",
+                            "label": "Badge Title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Text",
+                            "append": "",
+                            "maxlength": 50
+                        },
+                        {
+                            "key": "field_5a55ddeca357b",
+                            "label": "Badge Description",
+                            "name": "badge_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "( optional )",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5a55ddeca3577",
+                            "label": "Badge Icon",
+                            "name": "badge_icon",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 10,
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "5a55de08a357c": {
+                    "key": "5a55de08a357c",
+                    "name": "badges_for_likes",
+                    "label": "Badges For Likes",
+                    "display": "table",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a55de08a357e",
+                            "label": "Badge Min. Likes",
+                            "name": "badge_min_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Min",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55de08a357f",
+                            "label": "Badge Max. Likes",
+                            "name": "badge_max_point",
+                            "aria-label": "",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Max",
+                            "append": "",
+                            "min": 0,
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5a55de08a3580",
+                            "label": "Badge Title",
+                            "name": "badge_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "Text",
+                            "append": "",
+                            "maxlength": 50
+                        },
+                        {
+                            "key": "field_5a55de08a3581",
+                            "label": "Badge Description",
+                            "name": "badge_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "( optional )",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "30",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_5a55de08a357d",
+                            "label": "Badge Icon",
+                            "name": "badge_icon",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "20",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": 10,
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "New Badge",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_5a5e621f2c193",
+            "label": "User Points",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5a5e62c52c195",
+            "label": "Enable User Points",
+            "name": "enable_user_points",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Enable User Points Option",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5a5e62ef2c196",
+            "label": "Submitting a post",
+            "name": "submitting_a_post",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a5e62c52c195",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "points",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5a5e631d2c197",
+            "label": "Get a follower",
+            "name": "get_a_follower",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a5e62c52c195",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "points",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5a5e632b2c198",
+            "label": "Posting a comment",
+            "name": "posting_a_comment",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5a5e62c52c195",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "points",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5e73768fc9cac",
+            "label": "User Groups",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e83b43e385ce",
+            "label": "Enable User Groups",
+            "name": "enable_user_groups",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5e7376a3c9cad",
+            "label": "User Groups",
+            "name": "user_groups",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e83b43e385ce",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "New Group",
+            "sub_fields": [
+                {
+                    "key": "field_5e73772dc9cae",
+                    "label": "Group name",
+                    "name": "group_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Name of this group",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "Name",
+                    "append": "",
+                    "maxlength": 50,
+                    "parent_repeater": "field_5e7376a3c9cad"
+                },
+                {
+                    "key": "field_5e737766c9caf",
+                    "label": "Group Color",
+                    "name": "group_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "Bckground Color",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string",
+                    "parent_repeater": "field_5e7376a3c9cad"
+                },
+                {
+                    "key": "field_5e73778dc9cb0",
+                    "label": "Group Icon",
+                    "name": "group_icon",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Select <a href=\"https:\/\/fontawesome.com\/icons?m=free\" target=\"_blank\">FontAwesome<\/a> icon code",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "32",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "<i class=\"fas fa-crown\"><\/i>",
+                    "prepend": "icon",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5e7376a3c9cad"
+                },
+                {
+                    "key": "field_5e7379b1cccd4",
+                    "label": "Default for new users",
+                    "name": "default_group_for_new_users",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "set as default for new users",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "23",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "parent_repeater": "field_5e7376a3c9cad"
+                },
+                {
+                    "key": "field_5e865379a58e8",
+                    "label": "Group Users",
+                    "name": "group_users",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "1": "admin",
+                        "16": "alexmad00",
+                        "20": "ayd",
+                        "17": "aydin",
+                        "21": "aydinceri",
+                        "13": "madmaxx0007"
+                    },
+                    "default_value": [],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": "",
+                    "parent_repeater": "field_5e7376a3c9cad"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_5e83b40e8884f",
+            "label": "Group Permissions",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e83b43e385ce",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e83c6c67829c",
+            "label": "Create posts",
+            "name": "groups_create_posts",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "Only these group users will be able to create post",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5e84bcb207b30",
+            "label": "Create posts without approval",
+            "name": "groups_create_posts_without_approval",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "These group users will be able to create post without approval",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5e84bec25347b",
+            "label": "Edit their own posts",
+            "name": "groups_edit_their_own_posts",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "These group users will be able to edit their posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5e8e0884d1346",
+            "label": "View posts",
+            "name": "groups_view_posts",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "Only these group users will be able to see posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5e922736085be",
+            "label": "Write comments",
+            "name": "groups_write_comments",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "These group users will be able to write comments to posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "save_custom": 0
+        },
+        {
+            "key": "field_6362b7bd988ea",
+            "label": "Hide ads",
+            "name": "groups_display_ads",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "These groups members will not see ads",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Pro": "<span class=\"group-icon\" title=\"Pro\" style=\"background-color: #23dae0;\"><i class=\"fas fa-robot\"><\/i>Pro<\/span>",
+                "admin": "<span class=\"group-icon\" title=\"admin\" style=\"background-color: #0a0a0a;\"><i class=\"fas fa-fire-alt\"><\/i>admin<\/span>",
+                "king": "<span class=\"group-icon\" title=\"king\" style=\"background-color: #fc3a3a;\"><i class=\"fas fa-crown\"><\/i>king<\/span>"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "save_custom": 0
+        },
+        {
+            "key": "field_5fd0d91ddd097",
+            "label": "Membership",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fd0d93cdd098",
+            "label": "Enable Membership",
+            "name": "enable_membership",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Enable membership for your page. Required <strong>WooCommerce Plugin<\/strong> to use this feature.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fe869e5f0de7",
+            "label": "Membership Icon",
+            "name": "membership_icon",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Select <a href=\"https:\/\/fontawesome.com\/icons?m=free\" target=\"_blank\">FontAwesome<\/a> icon code",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<i class=\"fas fa-fingerprint\"><\/i>",
+            "placeholder": "",
+            "prepend": "icon",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe868ed022ac",
+            "label": "Restricted Post Title",
+            "name": "restricted_post_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "title for restricted posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "This post is for premium members.",
+            "placeholder": "",
+            "prepend": "title",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe86a6df0de9",
+            "label": "Restricted Post Description",
+            "name": "restricted_post_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Let's buy a plan.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 3,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ffda525a7d38",
+            "label": "Membership Icon Title",
+            "name": "membership_icon_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Profile membership icon title",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Premium",
+            "placeholder": "",
+            "prepend": "title",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fe86af2d3783",
+            "label": "Restricted Post Button Value",
+            "name": "restricted_post_button_value",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "button value text",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "See All Plans",
+            "placeholder": "",
+            "prepend": "button",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_63aadc4011dc6",
+            "label": "Display cart icon",
+            "name": "display_cart_icon",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "button value text",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fd0d93cdd098",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_61b8c36143d1c",
+            "label": "Flags",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_61b8c37443d1d",
+            "label": "Enable flags for posts",
+            "name": "enable_flags_for_posts",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "enable flags for posts and users can report posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_61b8c3c343d1e",
+            "label": "Enable flags for comments",
+            "name": "enable_flags_for_comments",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "enable flags for comments and users can report them",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_61b8c45443d1f",
+            "label": "Hide posts",
+            "name": "hide_posts_flag",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Hide posts after certain number of flags",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61b8c37443d1d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_61b8c3c343d1e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_61b8c4f543d21",
+            "label": "Hide after this amount",
+            "name": "hide_after_this_amount",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "hide posts or comments after this number of flags",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61b8c45443d1f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 15,
+            "placeholder": "",
+            "prepend": "flags",
+            "append": "",
+            "min": "",
+            "max": 200,
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-lists"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816082
+}

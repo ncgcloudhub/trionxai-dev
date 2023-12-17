@@ -1,0 +1,143 @@
+{
+    "key": "group_5fb50168c5167",
+    "title": "Kingflix settings",
+    "fields": [
+        {
+            "key": "field_5fb5017cb785d",
+            "label": "Posts number in categories",
+            "name": "kingflix_posts_number_in_categories",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "show max posts in each categories",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 12,
+            "placeholder": "",
+            "prepend": "number",
+            "append": "",
+            "min": 1,
+            "max": 150,
+            "step": ""
+        },
+        {
+            "key": "field_5fb7a234b3ab5",
+            "label": "Display Bookmarked Posts",
+            "name": "kingflix_display_bookmarked_posts",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "display bookmarked posts in kingflix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fb7a267b3ab6",
+            "label": "Bookmarked Posts Header",
+            "name": "kingflix_bookmarked_posts_header",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "header for bookmarked posts in kingflix page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fb7a234b3ab5",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Watch Later",
+            "placeholder": "",
+            "prepend": "title",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5fb50268e803c",
+            "label": "Display Trending Posts",
+            "name": "kingflix_display_trending_posts",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "display trending posts in kingflix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5fb506e28caaa",
+            "label": "Trending Posts Header",
+            "name": "kingflix_trending_posts_header",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "header for trending posts in kingflix page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5fb50268e803c",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Trending",
+            "placeholder": "",
+            "prepend": "title",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "king_page_kingflix.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816080
+}

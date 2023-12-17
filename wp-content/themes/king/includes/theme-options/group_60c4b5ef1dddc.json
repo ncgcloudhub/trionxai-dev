@@ -1,0 +1,50 @@
+{
+    "key": "group_60c4b5ef1dddc",
+    "title": "Polls Templates",
+    "fields": [
+        {
+            "key": "field_60c4b5fb3936f",
+            "label": "Poll Template",
+            "name": "poll_template",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "poll-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "poll-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v2.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "poll"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816091
+}

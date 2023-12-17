@@ -1,0 +1,53 @@
+{
+    "key": "group_60ae46c60a552",
+    "title": "Image Gallery",
+    "fields": [
+        {
+            "key": "field_60ae46d02f589",
+            "label": "Images",
+            "name": "images_gallery",
+            "aria-label": "",
+            "type": "gallery",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "king-gallery-img",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "insert": "append",
+            "library": "uploadedTo",
+            "min": 1,
+            "max": 30,
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": 5,
+            "mime_types": "jpg, jpeg, png, gif, webp"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "image"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816078
+}

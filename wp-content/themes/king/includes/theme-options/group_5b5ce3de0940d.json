@@ -1,0 +1,50 @@
+{
+    "key": "group_5b5ce3de0940d",
+    "title": "Image Templates",
+    "fields": [
+        {
+            "key": "field_5b5ce3de23ad5",
+            "label": "Image Post Template",
+            "name": "image_template",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/imagetemplate-v1.svg\" height=\"150\" width=\"150\" \/>",
+                "image-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/imagetemplate-v2.svg\" height=\"150\" width=\"150\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "image"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816139
+}

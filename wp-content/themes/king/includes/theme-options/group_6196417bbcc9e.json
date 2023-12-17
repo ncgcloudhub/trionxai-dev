@@ -1,0 +1,164 @@
+{
+    "key": "group_6196417bbcc9e",
+    "title": "Mega Menu",
+    "fields": [
+        {
+            "key": "field_61964183f0755",
+            "label": "Enable Mega Menu",
+            "name": "enable_mega_menu",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Enable mega menu and show posts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62af049f3b195",
+            "label": "Post Number",
+            "name": "mmenu_post_number",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "( only available for categories and tags ! )",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61964183f0755",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 5,
+            "placeholder": "",
+            "prepend": "Number",
+            "append": "",
+            "min": 1,
+            "max": 6,
+            "step": ""
+        },
+        {
+            "key": "field_62b048444f214",
+            "label": "Mega Menu Description",
+            "name": "mega_menu_left_description",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "You can show image and description in Mega Menu",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61964183f0755",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62cebc20fc1b5",
+            "label": "Description Title",
+            "name": "left_desc_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_62b048444f214",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_62cebc97fc1b6",
+            "label": "Description Background",
+            "name": "left_description_background",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_62b048444f214",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "location\/header-nav"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816083
+}

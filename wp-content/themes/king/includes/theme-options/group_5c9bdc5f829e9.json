@@ -1,0 +1,173 @@
+{
+    "key": "group_5c9bdc5f829e9",
+    "title": "Menus",
+    "fields": [
+        {
+            "key": "field_5c9bdc62674dd",
+            "label": "Add Badge To Menu",
+            "name": "add_badge_to_menu",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "you can add badge to menu items",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5c9bdc83674de",
+            "label": "Badge Text",
+            "name": "menu_badge_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "you can add badge to menu items",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c9bdc62674dd",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "New!",
+            "prepend": "text",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c9bdcbc674df",
+            "label": "Badge Background Color",
+            "name": "menu_badge_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c9bdc62674dd",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60bfbf2ba014f",
+            "label": "Add Icon to Menu",
+            "name": "add_icon_to_menu",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "you can add icons before the menu item title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_60bfbf53a0150",
+            "label": "Menu item icon",
+            "name": "menu_item_icon",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Supporting FontAwesome icons, you can select the icons <a href=\"https:\/\/fontawesome.com\/icons\" target=\"_blank\">Here<\/a>",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bfbf2ba014f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "<i class=\"far fa-circle\"><\/i>",
+            "prepend": "Icon",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60bfbf5aa0151",
+            "label": "Menu item icon color",
+            "name": "menu_item_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bfbf2ba014f",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816085
+}

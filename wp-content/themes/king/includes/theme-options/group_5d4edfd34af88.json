@@ -1,0 +1,4352 @@
+{
+    "key": "group_5d4edfd34af88",
+    "title": "Templates",
+    "fields": [
+        {
+            "key": "field_5e28624658a65",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e28626d0b645",
+            "label": "Header Templates",
+            "name": "header_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "header-template-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-01.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-02.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-03.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-04.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-05.svg\" height=\"180\" width=\"350\" \/>",
+                "header-template-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-06.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-07.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-08.svg\" height=\"130\" width=\"350\" \/>",
+                "header-template-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-09.svg\" height=\"130\" width=\"350\" \/>",
+                "header-template-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-10.svg\" height=\"84\" width=\"350\" \/>",
+                "header-template-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-11.svg\" height=\"180\" width=\"350\" \/>",
+                "header-template-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/header\/header-12.svg\" height=\"180\" width=\"350\" \/>"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e53da07acb39",
+            "label": "Header 02 Options",
+            "name": "header_02_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-02"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e53da07acb3a",
+                    "label": "Page Margins",
+                    "name": "margin",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 10,
+                    "placeholder": "left and right margin",
+                    "prepend": "",
+                    "append": "px",
+                    "min": 4,
+                    "max": 600,
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f9574b14efd0",
+            "label": "Left Menu Options",
+            "name": "header_09_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-06"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-09"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-05"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-07"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-10"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-11"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-12"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f9574d24efd5",
+                    "label": "Title of Header Nav",
+                    "name": "title_of_header_nav",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "you can add title for header nav links in left menu ( not required )",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_62f95a2a1488e",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Menu",
+                    "prepend": "text",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_62f95a2a1488e",
+                    "label": "Hide Header Nav",
+                    "name": "hide_header_nav",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "you can hide header nav menu in left menu",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f95752b4efd6",
+                    "label": "Title of Menu",
+                    "name": "title_of_menu",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "you can add title for menu links in left menu ( not required )",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Links",
+                    "prepend": "text",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f9800fc4be72",
+                    "label": "Show Following Users",
+                    "name": "show_following_users",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "show following users in left menu",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f9801524be73",
+                    "label": "Following Users Title",
+                    "name": "following_users_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Add title for following users in left menu ( not required )",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f9800fc4be72",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Subscriptions",
+                    "prepend": "text",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f9576256aff6",
+                    "label": "Left Menu Background",
+                    "name": "left_menu_background",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5f9576496aff7",
+                    "label": "Left Menu Links Color",
+                    "name": "left_menu_links_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                }
+            ]
+        },
+        {
+            "key": "field_5e53dbaa24f17",
+            "label": "Header Options",
+            "name": "header_03_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-03"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-07"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e53dbaa24f18",
+                    "label": "Top Header First Color of Background",
+                    "name": "background1",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5e53dc0a24f19",
+                    "label": "Top Header Second Color of Background",
+                    "name": "background2",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e53dbaa24f18",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5e53df0ec83b0",
+                    "label": "Font Color",
+                    "name": "font_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5e7e38d8c7b48",
+                    "label": "Top Header Right Icons",
+                    "name": "top_header_right_icons",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "You can add small icons at top bar",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 15,
+                    "layout": "block",
+                    "button_label": "Add Icon",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e7e3958c7b49",
+                            "label": "link url",
+                            "name": "link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5e7e38d8c7b48"
+                        },
+                        {
+                            "key": "field_5e7e396ec7b4a",
+                            "label": "Icon Code",
+                            "name": "icon_code",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "You can select icons <a href=\"https:\/\/fontawesome.com\/icons\/\" target=\"_blank\">Here<\/a>",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "<i class=\"fas fa-crown\"><\/i>",
+                            "prepend": "code",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5e7e38d8c7b48"
+                        }
+                    ],
+                    "rows_per_page": 20
+                },
+                {
+                    "key": "field_62f10f4b11066",
+                    "label": "Second Header Background",
+                    "name": "second_header_background",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e28626d0b645",
+                                "operator": "==",
+                                "value": "header-template-07"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_62f10fb3ab604",
+                    "label": "Second Header Links",
+                    "name": "second_header_links",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5e28626d0b645",
+                                "operator": "==",
+                                "value": "header-template-07"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 0,
+                    "return_format": "string"
+                }
+            ]
+        },
+        {
+            "key": "field_5e29be8d3c80f",
+            "label": "Header 04 Options",
+            "name": "header_04_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-04"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e2aba22fca80",
+                    "label": "Ad Area Background",
+                    "name": "background",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5e2aba956976a",
+                    "label": "Ad Code",
+                    "name": "code",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Ad code ( HTML allowed )",
+                    "maxlength": "",
+                    "rows": 6,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5fc28afc5237e",
+                    "label": "Height",
+                    "name": "top_height",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                },
+                {
+                    "key": "field_5fc28b225237f",
+                    "label": "Background Image",
+                    "name": "top_background_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "thumbnail",
+                    "library": "uploadedTo",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5ee1260bb71fa",
+            "label": "Header 08 Options",
+            "name": "header_08_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e28626d0b645",
+                        "operator": "==",
+                        "value": "header-template-08"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5ee1260bb71fd",
+                    "label": "Font Color",
+                    "name": "font_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": false,
+                    "return_format": "string"
+                },
+                {
+                    "key": "field_5ee1260bb71fe",
+                    "label": "Bottom Icons",
+                    "name": "bottom_icons",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "You can add small icons at bottom of right menu",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 10,
+                    "layout": "block",
+                    "button_label": "Add Icon",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ee1260bb71ff",
+                            "label": "link url",
+                            "name": "link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5ee1260bb71fe"
+                        },
+                        {
+                            "key": "field_5ee1260bb7200",
+                            "label": "Icon Code",
+                            "name": "icon_code",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "You can select icons <a href=\"https:\/\/fontawesome.com\/icons\/\" target=\"_blank\">Here<\/a>",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "<i class=\"fas fa-crown\"><\/i>",
+                            "prepend": "code",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5ee1260bb71fe"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_5d4edff04a593",
+            "label": "Posts Page",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d4ee03c4a594",
+            "label": "Single Post Templates",
+            "name": "single_post_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v2.svg\" height=\"180\" width=\"180\" \/>",
+                "template-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v3.svg\" height=\"180\" width=\"180\" \/>",
+                "template-4": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v4.svg\" height=\"180\" width=\"180\" \/>",
+                "template-5": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v5.svg\" height=\"180\" width=\"180\" \/>",
+                "template-6": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/template-v6.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5d4ee0794a595",
+            "label": "Default Background",
+            "name": "default_background",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "You can select an image here to display if there is not featured image",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d4ee03c4a594",
+                        "operator": "==",
+                        "value": "template-3"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5d4ee03c4a594",
+                        "operator": "==",
+                        "value": "template-4"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5d4ee03c4a594",
+                        "operator": "==",
+                        "value": "template-5"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5d4ee03c4a594",
+                        "operator": "==",
+                        "value": "template-6"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d4ee0cf4a599",
+            "label": "Video Posts Templates",
+            "name": "video_posts_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "video-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "video-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v2.svg\" height=\"180\" width=\"180\" \/>",
+                "video-template-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v3.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5d4ee1104a59a",
+            "label": "Image Posts Templates",
+            "name": "image_posts_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/imagetemplate-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "image-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/imagetemplate-v2.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_60ad359f94397",
+            "label": "Poll Posts Templates",
+            "name": "poll_posts_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "poll-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "poll-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v2.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_60c4b3ad9aadb",
+            "label": "Trivia Quiz Posts Templates",
+            "name": "trivia_quiz_posts_templates",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "trivia-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v1.svg\" height=\"180\" width=\"180\" \/>",
+                "trivia-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/polltemplate-v2.svg\" height=\"180\" width=\"180\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e5965f2be87b",
+            "label": "Posts",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e59662fbe87c",
+            "label": "Post Template",
+            "name": "select_default_display_option",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "You can select default view option of your page,",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"220\" width=\"220\" \/>",
+                "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"220\" width=\"220\" \/>",
+                "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"220\" width=\"220\" \/>"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ed7df88c8c01",
+            "label": "Padding Between Posts",
+            "name": "padding_between_posts",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Select padding size between posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e59662fbe87c",
+                        "operator": "==",
+                        "value": "king-grid-10"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e59662fbe87c",
+                        "operator": "==",
+                        "value": "king-grid-17"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 40,
+            "placeholder": "",
+            "step": "",
+            "prepend": "padding",
+            "append": "px"
+        },
+        {
+            "key": "field_5ed7e1a80346f",
+            "label": "Border Radius of Posts",
+            "name": "border_radius_of_posts",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Select border radius size of posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5e59662fbe87c",
+                        "operator": "==",
+                        "value": "king-grid-10"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5e59662fbe87c",
+                        "operator": "==",
+                        "value": "king-grid-17"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "100",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": 40,
+            "placeholder": "",
+            "step": "",
+            "prepend": "radius",
+            "append": "px"
+        },
+        {
+            "key": "field_5e56a74a8095c",
+            "label": "Pagination",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5e56a7618095d",
+            "label": "Pagination Type",
+            "name": "pagination_type",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "king-pagination-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/pagination\/king-pagination-01.svg\" height=\"96\" width=\"400\" \/>",
+                "king-pagination-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/pagination\/king-pagination-02.svg\" height=\"96\" width=\"400\" \/>",
+                "king-pagination-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/pagination\/king-pagination-03.svg\" height=\"96\" width=\"400\" \/>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5e69103a459eb",
+            "label": "Templates",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_61d420a81e11e",
+            "label": "Homepage template",
+            "name": "homepage_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5e69104d459ec",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_61d420e31e11f",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d4551c37fd0",
+            "label": "Archive template",
+            "name": "archive_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d4551c37fd1",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_61d4551c37fd2",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_636f8e1f56956",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d57ef337e5b",
+            "label": "Search page template",
+            "name": "search_page_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d57ef337e5c",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_61d57ef337e5d",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_6370d5b5d6c1a",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d5a26b8d14f",
+            "label": "Dashboard template",
+            "name": "dashboard_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d5a26b8d150",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_61d5a26b8d151",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_6370d5d8d6c1b",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d59359f7ccd",
+            "label": "News page template",
+            "name": "news_page_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d59359f7cce",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "",
+                    "return_format": ""
+                },
+                {
+                    "key": "field_61d59359f7ccf",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "",
+                    "return_format": ""
+                },
+                {
+                    "key": "field_6370d5f1d6c1c",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d593faf7cd0",
+            "label": "Videos page template",
+            "name": "videos_page_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d593faf7cd1",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "",
+                    "return_format": ""
+                },
+                {
+                    "key": "field_61d593faf7cd2",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "",
+                    "return_format": ""
+                },
+                {
+                    "key": "field_6370d607d6c1d",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d59421f7cd3",
+            "label": "Images page template",
+            "name": "images_page_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d59421f7cd4",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_61d59421f7cd5",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_6370d61cd6c1e",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_61d5a5838b402",
+            "label": "Profile template",
+            "name": "profile_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "ktemps",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61d5a5838b404",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_6370d637d6c1f",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5eadb0c9e9e3b",
+            "label": "Image Gallery",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5eadb0f9e9e3c",
+            "label": "Gallery layout",
+            "name": "gallery_layout",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Select gallery layout for images posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "king-gallery-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/gallery\/gallery-01.svg\" height=\"170\" width=\"170\" \/>",
+                "king-gallery-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/gallery\/gallery-02.svg\" height=\"170\" width=\"170\" \/>",
+                "king-gallery-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/gallery\/gallery-03.svg\" height=\"170\" width=\"170\" \/>",
+                "king-gallery-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/gallery\/gallery-04.svg\" height=\"170\" width=\"170\" \/>"
+            },
+            "default_value": "king-gallery-01",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5eb5a80b9380e",
+            "label": "Enable lightbox gallery",
+            "name": "enable_lightbox_gallery",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "enable lightbox view for multiple images, users can see images with full width",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb6dfac3b094",
+            "label": "Gallery background",
+            "name": "gallery_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "select color for the background of lightbox gallery",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb5a80b9380e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5eb6e037ec85a",
+            "label": "Gallery text color",
+            "name": "gallery_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "select color for the texts in lightbox gallery",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb5a80b9380e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5eb5bbe5f6fd2",
+            "label": "Enable lightbox ad",
+            "name": "enable_lightbox_ad",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "enable ad in lightbox gallery",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb5a80b9380e",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb5bc46f6fd3",
+            "label": "Lightbox gallery ad code",
+            "name": "lightbox_gallery_ad_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb5bbe5f6fd2",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "ad code here HTML allowed",
+            "maxlength": "",
+            "rows": 6,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ec94b465a36c",
+            "label": "Slider",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ec94b505a36d",
+            "label": "Display Slider",
+            "name": "display_slider",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "if you select this slider will be displayed at home page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Display Slider",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec94e7246167",
+            "label": "Slider Template",
+            "name": "slider_template",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Select slider template",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "slider-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/slider1.svg\" height=\"220\" width=\"220\" \/>",
+                "slider-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/slider2.svg\" height=\"220\" width=\"220\" \/>",
+                "slider-template-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/slider3.svg\" height=\"220\" width=\"220\" \/>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_62b3079178810",
+            "label": "Slider 2 Layout",
+            "name": "slider_2_layout",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Select slider 2 layout",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "slider-layout-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/slider2.svg\" height=\"170\" width=\"170\" \/>",
+                "slider-layout-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/sliderl2.svg\" height=\"170\" width=\"170\" \/>",
+                "slider-layout-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/sliderl3.svg\" height=\"170\" width=\"170\" \/>",
+                "slider-layout-4": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/slider\/sliderl4.svg\" height=\"170\" width=\"170\" \/>"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "horizontal",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ec94b83e3e5a",
+            "label": "Show in Slider",
+            "name": "show_slider",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "if you select this slider will be displayed at home page",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "featured-post": "Featured Posts",
+                "keep_trending": "Trending Posts",
+                "editors_choice": "Editors’ Choice",
+                "most_views": "Most Views",
+                "most_likes": "Most Likes"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ec94bf0e3e5c",
+            "label": "Select Grid Template",
+            "name": "select_grid_template",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "You can select grid template",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "grid-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-1.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-2.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-3.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-4": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-4.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-5": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-5.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-6": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-6.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-7": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-7.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-8": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-8.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-9": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-9.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-10.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-11.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-12.svg\" height=\"140\" width=\"160\" \/>",
+                "grid-template-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/grid\/grid-13.svg\" height=\"140\" width=\"160\" \/>"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ec94c68998ff",
+            "label": "Grid Height",
+            "name": "grid_height",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can change the grid height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height",
+            "append": "px",
+            "min": 100,
+            "max": 1500,
+            "step": 10
+        },
+        {
+            "key": "field_5ed7e45c59192",
+            "label": "Padding Between Grid Posts",
+            "name": "padding_between_grid_posts",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can change the padding between grid posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "padding",
+            "append": "px",
+            "min": "",
+            "max": 80,
+            "step": ""
+        },
+        {
+            "key": "field_63c7e005fec71",
+            "label": "Left & Right Padding",
+            "name": "left_right_padding_sider",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Change slider left and right padding",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "%",
+            "append": ""
+        },
+        {
+            "key": "field_5ed7e4aa59193",
+            "label": "Border Radius of Grid Posts",
+            "name": "border_radius_of_grid_posts",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can change the border radius of grid posts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "radius",
+            "append": "px",
+            "min": "",
+            "max": 80,
+            "step": ""
+        },
+        {
+            "key": "field_5ec94d0b086c1",
+            "label": "Slider Height",
+            "name": "slider_height",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can change the slider height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 100,
+            "max": 1100,
+            "placeholder": "",
+            "step": 10,
+            "prepend": "height",
+            "append": "px"
+        },
+        {
+            "key": "field_5ec94d3b086c2",
+            "label": "Length of Posts in Slider",
+            "name": "length_slider",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Length of Posts in Slider",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 4,
+            "placeholder": "",
+            "prepend": "Slider Posts",
+            "append": "",
+            "min": 1,
+            "max": 50,
+            "step": ""
+        },
+        {
+            "key": "field_5ec94d74086c3",
+            "label": "Items Length",
+            "name": "items_length",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "This variable allows you to set the maximum amount of items displayed at a time with the widest browser width",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-2"
+                    },
+                    {
+                        "field": "field_62b3079178810",
+                        "operator": "==",
+                        "value": "slider-layout-1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "placeholder": "",
+            "prepend": "Items Length",
+            "append": "",
+            "min": 1,
+            "max": 16,
+            "step": ""
+        },
+        {
+            "key": "field_5ec964ac47a82",
+            "label": "Video",
+            "name": "slider_video",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "Select video file for background",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "mp4"
+        },
+        {
+            "key": "field_5ec965abc520f",
+            "label": "Header",
+            "name": "slider_video_header",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Text",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec96684c5210",
+            "label": "Description",
+            "name": "slider_video_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5ec98844abd92",
+            "label": "Button Link",
+            "name": "slider_video_button_link",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Link",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec988d9abd93",
+            "label": "Button Text",
+            "name": "slider_video_button_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec94b505a36d",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_5ec94e7246167",
+                        "operator": "==",
+                        "value": "slider-template-3"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "Text",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec9498a29f77",
+            "label": "Mini Slider",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5ec949ddf486d",
+            "label": "Display Mini Slider",
+            "name": "display_mini_slider",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "you can enable mini slider",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "enable mini slider",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5f930538d0503",
+            "label": "Mini Slider Title",
+            "name": "mini_slider_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "You can add title for mini slider ( not required )",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "text",
+            "append": "",
+            "maxlength": 150
+        },
+        {
+            "key": "field_5ec94a5f08aa2",
+            "label": "Show in Mini Slider",
+            "name": "show_in_mini_slider",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "you can enable mini slider",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "featured-post": "Featured Posts",
+                "keep_trending": "Trending Posts",
+                "editors_choice": "Editors’ Choice",
+                "show_categories": "Show Categories"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ec94a8808aa3",
+            "label": "Mini slider post height",
+            "name": "mini_slider_post_height",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "you can change mini slider posts height",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "height",
+            "append": "px",
+            "min": 100,
+            "max": 800,
+            "step": 10
+        },
+        {
+            "key": "field_5f930274cf35c",
+            "label": "Mini slider paddings",
+            "name": "mini_slider_paddings",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "you can select mini slider padding size right and left side",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "padding",
+            "append": "px",
+            "min": 0,
+            "max": 400,
+            "step": ""
+        },
+        {
+            "key": "field_5fa1575764b5e",
+            "label": "Post Number in Mini Slider",
+            "name": "post_number_in_mini_slider",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Posts number in mini slider",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 6,
+            "placeholder": "",
+            "prepend": "Posts",
+            "append": "",
+            "min": 1,
+            "max": 99,
+            "step": ""
+        },
+        {
+            "key": "field_5ec94adbb2b61",
+            "label": "Mini Slider Items Length",
+            "name": "mini_items_length",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "This variable allows you to set the maximum amount of items displayed at a time with the widest browser width",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5ec949ddf486d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 6,
+            "placeholder": "",
+            "prepend": "Items Length",
+            "append": "",
+            "min": 1,
+            "max": 16,
+            "step": ""
+        },
+        {
+            "key": "field_5f7f356f014bd",
+            "label": "Header Nav",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_60bf95fc1bfd1",
+            "label": "Header Nav",
+            "name": "king_header_nav",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "news_link": "News",
+                "videos_link": "Video",
+                "images_link": "Image",
+                "musics_link": "Music",
+                "lists_link": "List",
+                "polls_link": "Polls",
+                "quiz_link": "Trivia Quiz"
+            },
+            "allow_custom": 0,
+            "default_value": [
+                "news_link",
+                "videos_link",
+                "images_link",
+                "musics_link"
+            ],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5f7f39ca32e76",
+            "label": "News Mega Menu",
+            "name": "for_news_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "news_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f7f3ce893e52",
+                    "label": "for news link",
+                    "name": "for_news",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for news link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f7f3d8180484",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select post order",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f3ce893e52",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent news",
+                        "popular": "popular news"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f82f74ba9456",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f3ce893e52",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_5f7f3e33d0bca",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f3ce893e52",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f7f3f6fd0bcb",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5f7f3e33d0bca"
+                        },
+                        {
+                            "key": "field_5f7f3f9cd0bcc",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5f7f3e33d0bca"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_5f7f4080e9145",
+            "label": "Video Mega Menu",
+            "name": "for_video_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "videos_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f7f4080e9146",
+                    "label": "for video link",
+                    "name": "for_video",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for video link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f7f4080e9147",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in video mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f4080e9146",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent videos",
+                        "popular": "popular videos"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f82f8695f624",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f4080e9146",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_5f7f4080e9148",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f4080e9146",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f7f4080e9149",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5f7f4080e9148"
+                        },
+                        {
+                            "key": "field_5f7f4080e914a",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5f7f4080e9148"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_5f7f403c31e59",
+            "label": "Image Mega Menu",
+            "name": "for_image_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "images_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f7f403c31e5a",
+                    "label": "for image link",
+                    "name": "for_image",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for image link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f7f403c31e5b",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in image mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f403c31e5a",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent images",
+                        "popular": "popular images"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f82f9bd5f625",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f403c31e5a",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_5f7f403c31e5c",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f403c31e5a",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f7f403c31e5d",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5f7f403c31e5c"
+                        },
+                        {
+                            "key": "field_5f7f403c31e5e",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5f7f403c31e5c"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_5f7f423737191",
+            "label": "Music Mega Menu",
+            "name": "for_music_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "musics_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f7f423737192",
+                    "label": "for music link",
+                    "name": "for_music",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for music link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_5f7f423737193",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in music mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f423737192",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent musics",
+                        "popular": "popular musics"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f82fa175f627",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f423737192",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_5f7f423737194",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f7f423737192",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_5f7f423737195",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_5f7f423737194"
+                        },
+                        {
+                            "key": "field_5f7f423737196",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_5f7f423737194"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_60c0cea641723",
+            "label": "List Mega Menu",
+            "name": "for_list_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "lists_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60c0cea641724",
+                    "label": "for list link",
+                    "name": "for_list",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for list link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_60c0cea641725",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in list mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cea641724",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent lists",
+                        "popular": "popular lists"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_60c0cea641726",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cea641724",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_60c0cea641727",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cea641724",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c0cea641728",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_60c0cea641727"
+                        },
+                        {
+                            "key": "field_60c0cea641729",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_60c0cea641727"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_60c0cf3e51bb0",
+            "label": "Poll Mega Menu",
+            "name": "for_poll_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "polls_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60c0cf3e51bb1",
+                    "label": "for poll link",
+                    "name": "for_poll",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for poll link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_60c0cf3e51bb2",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in poll mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf3e51bb1",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent polls",
+                        "popular": "popular polls"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_60c0cf3e51bb3",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf3e51bb1",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_60c0cf3e51bb4",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf3e51bb1",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c0cf3e51bb5",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_60c0cf3e51bb4"
+                        },
+                        {
+                            "key": "field_60c0cf3e51bb6",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_60c0cf3e51bb4"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        },
+        {
+            "key": "field_60c0cf6e51bb7",
+            "label": "Trivia Quiz Mega Menu",
+            "name": "for_trivia_link",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_60bf95fc1bfd1",
+                        "operator": "==",
+                        "value": "quiz_link"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60c0cf6e51bb8",
+                    "label": "for trivia link",
+                    "name": "for_trivia",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "enable mega menu for trivia link",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_60c0cf6e51bb9",
+                    "label": "show in mega menu",
+                    "name": "show_in_mega_menu",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "select which posts you like to show in trivia quiz mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf6e51bb8",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "recent": "recent trivia quizzes",
+                        "popular": "popular trivia quizzes"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_60c0cf6e51bba",
+                    "label": "post number",
+                    "name": "mpost_number",
+                    "aria-label": "",
+                    "type": "range",
+                    "instructions": "number of posts display in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf6e51bb8",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 1,
+                    "max": 10,
+                    "step": "",
+                    "prepend": "posts",
+                    "append": ""
+                },
+                {
+                    "key": "field_60c0cf6e51bbb",
+                    "label": "add links in mega menu",
+                    "name": "links_in_mega_menu",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "you can add extra links in mega menu",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60c0cf6e51bb8",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "field_5f7f3f6fd0bcb",
+                    "min": 0,
+                    "max": 30,
+                    "layout": "block",
+                    "button_label": "add new link",
+                    "sub_fields": [
+                        {
+                            "key": "field_60c0cf6f51bbc",
+                            "label": "mega menu link text",
+                            "name": "mega_menu_link_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "text",
+                            "append": "",
+                            "maxlength": "",
+                            "parent_repeater": "field_60c0cf6e51bbb"
+                        },
+                        {
+                            "key": "field_60c0cf6f51bbd",
+                            "label": "mega menu link url",
+                            "name": "mega_menu_link_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "url",
+                            "parent_repeater": "field_60c0cf6e51bbb"
+                        }
+                    ],
+                    "rows_per_page": 20
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-templates"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1675962651
+}

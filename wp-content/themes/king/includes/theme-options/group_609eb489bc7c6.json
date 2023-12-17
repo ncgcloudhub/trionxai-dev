@@ -1,0 +1,265 @@
+{
+    "key": "group_609eb489bc7c6",
+    "title": "poll",
+    "fields": [
+        {
+            "key": "field_609eb497417b5",
+            "label": "Poll",
+            "name": "king_poll",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "king-repeater",
+                "id": ""
+            },
+            "collapsed": "field_609eb5aa417b7",
+            "min": 1,
+            "max": 50,
+            "layout": "block",
+            "button_label": "Add New",
+            "sub_fields": [
+                {
+                    "key": "field_609eb5aa417b7",
+                    "label": "Question",
+                    "name": "poll_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_609eb628417b8",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "Question",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 400,
+                    "parent_repeater": "field_609eb497417b5"
+                },
+                {
+                    "key": "field_609eb628417b8",
+                    "label": "Hide question title",
+                    "name": "hide_poll_title",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_60a001af265bf",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "parent_repeater": "field_609eb497417b5"
+                },
+                {
+                    "key": "field_60a001af265bf",
+                    "label": "Question Image",
+                    "name": "poll_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "uploadedTo",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": 5,
+                    "mime_types": "jpg, jpeg, png, gif, webp,",
+                    "parent_repeater": "field_609eb497417b5"
+                },
+                {
+                    "key": "field_609eb66c417b9",
+                    "label": "Answers Style",
+                    "name": "poll_answers_style",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "poll-radio",
+                        "id": ""
+                    },
+                    "choices": {
+                        "pollgrid-1": "<i class=\"fas fa-bars\"><\/i>",
+                        "pollgrid-2": "<i class=\"fas fa-th-large\"><\/i>",
+                        "pollgrid-3": "<i class=\"fas fa-grip-horizontal\"><\/i>"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "vertical",
+                    "return_format": "value",
+                    "save_other_choice": 0,
+                    "parent_repeater": "field_609eb497417b5"
+                },
+                {
+                    "key": "field_609ebc61fab81",
+                    "label": "Answers",
+                    "name": "poll_grid_answers",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "85",
+                        "class": "dflex",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 2,
+                    "max": 20,
+                    "layout": "block",
+                    "button_label": "add answer",
+                    "sub_fields": [
+                        {
+                            "key": "field_609ebc62fab82",
+                            "label": "Answer Image",
+                            "name": "poll_answer_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_609eb66c417b9",
+                                        "operator": "==",
+                                        "value": "pollgrid-2"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_609eb66c417b9",
+                                        "operator": "==",
+                                        "value": "pollgrid-3"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "thumbnail",
+                            "library": "uploadedTo",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "parent_repeater": "field_609ebc61fab81"
+                        },
+                        {
+                            "key": "field_609ebc62fab83",
+                            "label": "Answer",
+                            "name": "poll_answer",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": 200,
+                            "parent_repeater": "field_609ebc61fab81"
+                        }
+                    ],
+                    "rows_per_page": 20,
+                    "parent_repeater": "field_609eb497417b5"
+                },
+                {
+                    "key": "field_60a6bebb2fb0f",
+                    "label": "poll results",
+                    "name": "poll_results",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "hidden",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_609eb497417b5"
+                }
+            ],
+            "rows_per_page": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "poll"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816089
+}

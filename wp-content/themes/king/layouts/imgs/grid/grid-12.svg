@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 160 140" style="enable-background:new 0 0 160 140;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A8B6C0;}
+	.st1{fill:#E9EAED;}
+</style>
+<symbol  id="New_Symbol" viewBox="-25 -30 50 60">
+	<g>
+		<path class="st0" d="M-22-29.6c-1.4,0-2.6,1.2-2.6,2.6v54c0,1.5,1.2,2.6,2.6,2.6h44c1.4,0,2.6-1.2,2.6-2.6v-54
+			c0-1.4-1.2-2.6-2.6-2.6H-22z"/>
+		<path class="st1" d="M22,29.3c1.2,0,2.3-1,2.3-2.3v-54c0-1.2-1-2.3-2.3-2.3h-44c-1.2,0-2.3,1-2.3,2.3v54c0,1.2,1,2.3,2.3,2.3H22
+			 M22,30h-44c-1.7,0-3-1.3-3-3v-54c0-1.7,1.3-3,3-3h44c1.7,0,3,1.3,3,3v54C25,28.7,23.7,30,22,30L22,30z"/>
+	</g>
+</symbol>
+<rect class="st1" width="160" height="140"/>
+<use xlink:href="#New_Symbol"  width="50" height="60" x="-25" y="-30" transform="matrix(1 0 0 -0.5 130 55)" style="overflow:visible;"/>
+<use xlink:href="#New_Symbol"  width="50" height="60" x="-25" y="-30" transform="matrix(0.5 0 0 -0.5 142.499 85)" style="overflow:visible;"/>
+<use xlink:href="#New_Symbol"  width="50" height="60" x="-25" y="-30" transform="matrix(0.5 0 0 -0.5 117.499 85)" style="overflow:visible;"/>
+<g>
+	<path class="st0" d="M58,99.6c-1.5,0-2.6-1.2-2.6-2.6V43c0-1.5,1.2-2.6,2.6-2.6h44c1.4,0,2.6,1.2,2.6,2.6v54c0,1.4-1.2,2.6-2.6,2.6
+		H58z"/>
+	<path class="st1" d="M102,40.8c1.2,0,2.3,1,2.3,2.3v54c0,1.2-1,2.3-2.3,2.3H58c-1.2,0-2.3-1-2.3-2.3V43c0-1.2,1-2.3,2.3-2.3H102
+		 M102,40H58c-1.7,0-3,1.3-3,3v54c0,1.7,1.3,3,3,3h44c1.7,0,3-1.3,3-3V43C105,41.3,103.7,40,102,40L102,40z"/>
+</g>
+<g>
+	<path class="st0" d="M8,99.6c-1.4,0-2.6-1.2-2.6-2.6V43c0-1.5,1.2-2.6,2.6-2.6h44c1.5,0,2.6,1.2,2.6,2.6v54c0,1.4-1.2,2.6-2.6,2.6
+		H8z"/>
+	<path class="st1" d="M52,40.8c1.2,0,2.3,1,2.3,2.3v54c0,1.2-1,2.3-2.3,2.3H8c-1.2,0-2.3-1-2.3-2.3V43c0-1.2,1-2.3,2.3-2.3H52
+		 M52,40H8c-1.7,0-3,1.3-3,3v54c0,1.7,1.3,3,3,3h44c1.7,0,3-1.3,3-3V43C55,41.3,53.7,40,52,40L52,40z"/>
+</g>
+</svg>

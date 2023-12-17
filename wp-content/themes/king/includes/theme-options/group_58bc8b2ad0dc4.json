@@ -1,0 +1,276 @@
+{
+    "key": "group_58bc8b2ad0dc4",
+    "title": "User Options",
+    "fields": [
+        {
+            "key": "field_587be48552f9f",
+            "label": "Author Image",
+            "name": "author_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload author image.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "array",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_587be575569ec",
+            "label": "Cover image",
+            "name": "cover_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload cover image.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "preview_size": "thumbnail",
+            "library": "all",
+            "return_format": "array",
+            "min_width": 0,
+            "min_height": 0,
+            "min_size": 0,
+            "max_width": 0,
+            "max_height": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_587be5d811823",
+            "label": "Profile Social Links",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<h1>Profile Social Links<\/h1>",
+            "esc_html": 0,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_587be5f411824",
+            "label": "facebook",
+            "name": "profile_facebook",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Facebook profile or page url",
+            "prepend": "URL",
+            "append": "",
+            "formatting": "none",
+            "maxlength": 140
+        },
+        {
+            "key": "field_587be62b11825",
+            "label": "twitter",
+            "name": "profile_twitter",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "twitter profile url",
+            "prepend": "URL",
+            "append": "",
+            "formatting": "none",
+            "maxlength": 140
+        },
+        {
+            "key": "field_587be65111826",
+            "label": "Linkedin",
+            "name": "profile_linkedin",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "linkedin profile",
+            "prepend": "URL",
+            "append": "",
+            "formatting": "none",
+            "maxlength": 140
+        },
+        {
+            "key": "field_5b5f73a37030e",
+            "label": "Instagram",
+            "name": "profile_instagram",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Instagram profile url",
+            "prepend": "URL",
+            "append": "",
+            "maxlength": 140
+        },
+        {
+            "key": "field_5b5f73c17030f",
+            "label": "Pinterest",
+            "name": "profile_pinterest",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Pinterest profile url",
+            "prepend": "URL",
+            "append": "",
+            "maxlength": 140
+        },
+        {
+            "key": "field_5a132d05c424b",
+            "label": "Add Url",
+            "name": "profile_add_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "add custom url",
+            "prepend": "URL",
+            "append": "",
+            "maxlength": 140
+        },
+        {
+            "key": "field_587be6a663208",
+            "label": "Verified Accounts",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "<h1>Verified Account<\/h1>",
+            "esc_html": 0,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_587be6cb63209",
+            "label": "Verified Account",
+            "name": "verified_account",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "You can set extra permissions to verified users",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "verify this user account",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Verified",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_59430297b0d37",
+            "label": "Bonus Points",
+            "name": "bonus_points",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "placeholder": "",
+            "prepend": "points",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_form",
+                "operator": "==",
+                "value": "edit"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816106
+}

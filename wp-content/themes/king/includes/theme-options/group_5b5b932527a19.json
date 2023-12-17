@@ -1,0 +1,51 @@
+{
+    "key": "group_5b5b932527a19",
+    "title": "Video Templates",
+    "fields": [
+        {
+            "key": "field_5b5b932a71d23",
+            "label": "Video Post Template",
+            "name": "video_template",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "video-template-1": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v1.svg\" height=\"150\" width=\"150\" \/>",
+                "video-template-2": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v2.svg\" height=\"150\" width=\"150\" \/>",
+                "video-template-3": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/single\/videotemplate-v3.svg\" height=\"150\" width=\"150\" \/>"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_format",
+                "operator": "==",
+                "value": "video"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816141
+}

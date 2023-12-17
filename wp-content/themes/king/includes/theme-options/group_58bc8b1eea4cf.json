@@ -1,0 +1,2251 @@
+{
+    "key": "group_58bc8b1eea4cf",
+    "title": "Custom Style",
+    "fields": [
+        {
+            "key": "field_5803e16ce8443",
+            "label": "Body",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_57f6b8674af4c",
+            "label": "Select page Font family",
+            "name": "google_fonts",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "by <a href=\"https:\/\/fonts.google.com\/\" target=\"_blank\">Google Fonts<\/a>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Roboto": "Roboto",
+                "Quicksand": "Quicksand",
+                "Varela+Round": "Varela Round",
+                "Lato": "Lato",
+                "Raleway": "Raleway",
+                "Ubuntu": "Ubuntu",
+                "Titillium+Web": "Titillium Web",
+                "Dosis": "Dosis",
+                "Open+Sans": "Open Sans",
+                "Rubik": "Rubik",
+                "Changa": "Changa",
+                "Kanit": "Kanit",
+                "Ek+Mukta": "Ek Mukta",
+                "Prompt": "Prompt",
+                "Mitr": "Mitr",
+                "Quantico": "Quantico",
+                "El+Messiri": "El Messiri",
+                "Josefin+Sans": "Josefin Sans",
+                "Hind+Guntur": "Hind Guntur",
+                "Hind+Madurai": "Hind Madurai",
+                "Source+Sans+Pro": "Source Sans Pro",
+                "Heebo": "Heebo",
+                "Poppins": "Poppins"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_62ea750913860",
+            "label": "Left and Right page padding",
+            "name": "left_right_padding",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "You can select left and right side padding",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "%",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_57c895309a899",
+            "label": "Body Background",
+            "name": "body_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc0ca410dd7",
+            "label": "Page Link Color",
+            "name": "page_link_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Site links color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc0ed8b5f65",
+            "label": "Page Link Hover Color",
+            "name": "page_link_hover_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Site links hover color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58729141f3c04",
+            "label": "Button Colors",
+            "name": "button_colors",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Site button colors",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5872921c0b902",
+            "label": "Button Text Color",
+            "name": "button_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Site button text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd6e067283",
+            "label": "Follow Button Background",
+            "name": "follow_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Follow Button Background Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd71167285",
+            "label": "Follow Button Text Color",
+            "name": "follow_button_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Follow Button Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5806785eb286e",
+            "label": "Post Background",
+            "name": "post_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Posts box background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd73367286",
+            "label": "Post Title Color",
+            "name": "post_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post title color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5887f64af5e57",
+            "label": "Post entry content color",
+            "name": "post_entry_content_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Post entry content text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5863f58305007",
+            "label": "Posts Meta Background",
+            "name": "posts_meta_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Posts box Meta background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5863f5aa05008",
+            "label": "Posts Meta Text Color",
+            "name": "posts_meta_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Posts box Meta Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd76567287",
+            "label": "Editors' choice badge background",
+            "name": "editors_choice_badge_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select editors' choice badge background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd78567288",
+            "label": "Editors' choice badge text",
+            "name": "editors_choice_badge_text",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select editors' choice badge text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc0fe5cbf75",
+            "label": "Color For News",
+            "name": "color_for_news",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the News",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc1018316d4",
+            "label": "Color For Videos",
+            "name": "color_for_videos",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Videos",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc103b316d5",
+            "label": "Color For Images",
+            "name": "color_for_images",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Images",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ef4eb809f545",
+            "label": "Color For Music",
+            "name": "color_for_music",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Musics",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c64b341e0a2",
+            "label": "Color For List",
+            "name": "color_for_list",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Lists",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c64b431e0a3",
+            "label": "Color For Poll",
+            "name": "color_for_poll",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Poll",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c64b4f1e0a4",
+            "label": "Color For Trivia Quiz",
+            "name": "color_for_trivia_quiz",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Trivia Quiz",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58890c43f6bdc",
+            "label": "Color For NSFW",
+            "name": "color_for_nsfw",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the NSFW posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_586695b184cca",
+            "label": "Load More Button Background Color",
+            "name": "load_more_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Load more button background",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5866961584ccb",
+            "label": "Load More Button Text Color",
+            "name": "load_more_button_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select color for the Load more button text",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ea6ec9e0eb97",
+            "label": "Alert Background Color",
+            "name": "alert_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select background color for error message",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ea6ecd50eb98",
+            "label": "Alert Text Color",
+            "name": "alert_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select text color for error message",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_584b139267219",
+            "label": "Disable Custom Css",
+            "name": "disable_custom_css",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Disable Custom Css and Colors",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5803e105e3ce4",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_57c88ed8fba47",
+            "label": "Header Background",
+            "name": "header_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc093cc31f2",
+            "label": "Header Link Color",
+            "name": "header_link_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the header link colors",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc0a2cc9b37",
+            "label": "Header Search Background",
+            "name": "header_search_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the header search bar background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd7e05e57c",
+            "label": "Header Menu Background Color",
+            "name": "header_menu_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the header menu background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd7f55e57d",
+            "label": "Header Menu Link Colors",
+            "name": "header_menu_link_colors",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the header menu link colors",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5c9bd80b5e57e",
+            "label": "Header Menu Link Hover Colors",
+            "name": "header_menu_link_hover_colors",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the header menu link hover colors",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5cfa387973f7a",
+            "label": "Notification Icon Background",
+            "name": "notification_icon_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the Notification Icon Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5cfa389e73f7b",
+            "label": "Notification Icon Color",
+            "name": "notification_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the Notification Icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5cfa38ae73f7c",
+            "label": "Notification Box Background",
+            "name": "notification_box_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the Notification Box Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5cfa38d073f7d",
+            "label": "Notification Box Inside Background",
+            "name": "notification_box_inside_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the Notification Box Inside Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5cfa391d73f7e",
+            "label": "Notifications Text Color",
+            "name": "notifications_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change the Notifications Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067a58ad696",
+            "label": "Submit Button Background",
+            "name": "submit_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Submit Button Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_59249acf78b65",
+            "label": "Submit Button Link Colors",
+            "name": "submit_button_link_colors",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Submit Button Link color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067a95f2787",
+            "label": "Submit Button Icon Color",
+            "name": "submiticon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Submit Button Icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5a63b13792977",
+            "label": "Login and Register Buttons Background",
+            "name": "login_and_register_buttons_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Login and Register Buttons Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ffdb52f1cbc0",
+            "label": "Header Buttons Hover Background",
+            "name": "buttons_hover_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Login and Register Buttons Hover Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5945aa8244ab6",
+            "label": "User points badge background",
+            "name": "user_points_badge_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select User points badge background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5945ab4244ab7",
+            "label": "User points badge color",
+            "name": "user_points_badge_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select User points badge text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_57fc0857adad7",
+            "label": "Navigation Background",
+            "name": "navigation_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "change navigation background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5806928fde018",
+            "label": "Navigation Links Color",
+            "name": "navigation_links",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Navigation Links Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_59249bdd7dd76",
+            "label": "Navigation Links Active",
+            "name": "navigation_links_active",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Navigation Links Active Text Color & Border Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fff2c1e02b52",
+            "label": "Small Navigation Background",
+            "name": "small_navigation_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Small navigation background color in profile , hot and reactions page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fff2c6502b53",
+            "label": "Small Navigation Links",
+            "name": "small_navigation_links",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Small navigation links color in profile , hot and reactions page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fff2c7402b54",
+            "label": "Small Navigation Links Hover",
+            "name": "small_navigation_links_hover",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Small navigation links hover color in profile , hot and reactions page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5887f35a63c63",
+            "label": "Page header background",
+            "name": "page_header_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Page header background Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5887f44a63c64",
+            "label": "Page header text color",
+            "name": "page_header_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Page header Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ecbc56daed99",
+            "label": "Search v2 button background",
+            "name": "search_v2_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select search v2 button background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ecbc591aed9a",
+            "label": "Search v2 icon color",
+            "name": "search_v2_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select search v2 button icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ecbc62dce687",
+            "label": "Search v2 box background",
+            "name": "search_v2_box_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select search v2 box background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ecbc642ce688",
+            "label": "Search v2 input background",
+            "name": "search_v2_input_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select search v2 box input background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafbbaa31d6f",
+            "label": "Bookmarks Icon Background",
+            "name": "bookmarks_icon_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select bookmarks icon background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafbbca31d70",
+            "label": "Bookmarks Icon Color",
+            "name": "bookmarks_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select bookmarks icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5805367949bfd",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5805368749bfe",
+            "label": "Footer Background",
+            "name": "footer_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5805375a5b9a4",
+            "label": "Footer Widget Area Background",
+            "name": "fatfooter_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer widget area background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067be4a3470",
+            "label": "Footer Widgets Title Background",
+            "name": "footer_widgets_title_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer widgets title background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067c33c8cda",
+            "label": "Footer Widgets Title Color",
+            "name": "footer_widgets_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer widgets title text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_580538640ac50",
+            "label": "Footer Text Color",
+            "name": "footer_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_580539b0b8510",
+            "label": "Footer links Color",
+            "name": "footer_link_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer Links color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5ffdb1f80a7d8",
+            "label": "Footer links hover",
+            "name": "footer_links_hover",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select footer Links and Icons hover color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067d3fa81f9",
+            "label": "Sidebar",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_58067d4ca81fa",
+            "label": "Sidebar Widgets Title Background",
+            "name": "sidebar_widgets_title_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Widgets Title Background Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067d92a81fb",
+            "label": "Sidebar Widgets Title Color",
+            "name": "sidebar_widgets_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Widgets Title Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fb7a497408aa",
+            "label": "Sidebar Posts Background",
+            "name": "sidebar_posts_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Posts Background Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5863f3a18f505",
+            "label": "Sidebar Widgets Post Meta Text Color",
+            "name": "sidebar_widgets_post_meta_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Widgets Post Meta Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067db0a81fc",
+            "label": "Sidebar Links Color",
+            "name": "sidebar_links",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Links Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58067de5a81fd",
+            "label": "Sidebar Text Color",
+            "name": "sidebar_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Sidebar Text Color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_581502c9f0f0b",
+            "label": "Post Page",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_581502d4f0f0c",
+            "label": "Post Content Background Color",
+            "name": "post_content_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post content background color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_581503a21d6cf",
+            "label": "Post Content text color",
+            "name": "post_content_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post content text color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5872929b65c5d",
+            "label": "Post favorite button background",
+            "name": "post_like_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post favorite button background color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_587292da65c5e",
+            "label": "Post favorite button icon color",
+            "name": "post_like_button_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post favorite button icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c651a050f2e",
+            "label": "Post bookmark button background",
+            "name": "post_bookmark_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post bookmark button background color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c651a650f2f",
+            "label": "Post bookmark button icon color",
+            "name": "post_bookmark_button_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post bookmark button icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c65459946d7",
+            "label": "Post share button background",
+            "name": "post_share_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post share button background color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c6545e946d8",
+            "label": "Post share button icon color",
+            "name": "post_share_button_icon_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post share button icon color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c654fe946d9",
+            "label": "Vote Count background",
+            "name": "vote_count_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Vote Count background color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c655bb946db",
+            "label": "Vote count text color",
+            "name": "vote_count_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Vote Count text color in Post Page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c65504946da",
+            "label": "Vote icons color",
+            "name": "vote_icons_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post vote icons color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c6575143d43",
+            "label": "Next-Prev posts bars background",
+            "name": "next-prev_posts_bars_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Next-Prev bar background color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_60c657b243d45",
+            "label": "Next-Prev posts bars text color",
+            "name": "next-prev_posts_bars_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Next-Prev bars text color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_62f250dc3bdaa",
+            "label": "Poll results background color",
+            "name": "poll_results_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select poll result percent background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_62f251313bdab",
+            "label": "Poll user choice background",
+            "name": "poll_user_choice_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select user choice result background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_62f25299d16ac",
+            "label": "TriviaQuiz correct answer background",
+            "name": "triviaquiz_correct_answer_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Trivia Quiz correct answer background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_62f252eed16ad",
+            "label": "TriviaQuiz wrong answer background",
+            "name": "triviaquiz_wrong_answer_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Trivia Quiz wrong answer background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5815057b54404",
+            "label": "Post Author box background",
+            "name": "post_author_box_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post author box background color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5815061995480",
+            "label": "Post Author box text color",
+            "name": "post_author_box_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post author box text color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58164a8408681",
+            "label": "Post Meta Background",
+            "name": "post_meta_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post meta background color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58164ab1495b7",
+            "label": "Post Meta Text Color",
+            "name": "post_meta_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post meta text and icons color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_587bde52c5bfe",
+            "label": "Post page boxes background",
+            "name": "post_page_boxes_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post page boxes background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_587bde85c5bff",
+            "label": "Post page boxes title background",
+            "name": "post_page_boxes_title_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post page boxes title background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58cc4e71fa23c",
+            "label": "Post page boxes title color",
+            "name": "post_page_boxes_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select post page boxes title text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58729467dea0d",
+            "label": "Comments area background color",
+            "name": "comments_area_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select comments area background color in post page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_587294b7dea0e",
+            "label": "Comment box background",
+            "name": "comment_box_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select comment box background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_587294e3dea0f",
+            "label": "Comment box text color",
+            "name": "comment_box_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select comment box text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58729749cc217",
+            "label": "Comments reply button background",
+            "name": "comments_reply_button_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select comments reply button background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5872978acc218",
+            "label": "Comments reply button value color",
+            "name": "comments_reply_button_value_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select comments reply button value color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5872984de6632",
+            "label": "Comment Form Background",
+            "name": "comment_form_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Comment Form Background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_58729871e6633",
+            "label": "Comment Form Text Color",
+            "name": "comment_form_text_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Select Comment Form text color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_584b14ce5892e",
+            "label": "Custom CSS",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_584b14e35892f",
+            "label": "Custom Css",
+            "name": "custom_css",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "You can add your custom css code here ;",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "css code here",
+            "maxlength": "",
+            "rows": 24,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5fafb7824fb70",
+            "label": "Kingflix Page",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5fafb79e4fb71",
+            "label": "Categories Title Color",
+            "name": "kingflix_categories_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "categories title color in king flix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafb7ffd8271",
+            "label": "Posts Background Color",
+            "name": "kingflix_posts_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "posts background color in king flix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafb84fd8272",
+            "label": "Posts Title color",
+            "name": "kingflix_posts_title_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "posts title color in king flix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafb87ad8273",
+            "label": "Post Buttons Colors",
+            "name": "kingflix_post_buttons_colors",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "posts button colors in king flix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fafb89cd8274",
+            "label": "Post Meta Color",
+            "name": "kingflix_post_meta_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "posts meta text color in king flix page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fb3ab76025fa",
+            "label": "Quick View Background",
+            "name": "quick_view_background",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "quick view modal background color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fb3abbe025fb",
+            "label": "Quick View Post Title",
+            "name": "quick_view_post_title",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "quick view modal text color for title",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fb3abe7025fc",
+            "label": "Quick View Post Content",
+            "name": "quick_view_post_content",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "quick view modal text color for content",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        },
+        {
+            "key": "field_5fb3ac2c025fd",
+            "label": "Quick View Widget Title",
+            "name": "quick_view_widget_title",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "quick view modal widget title color",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-customize"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816071
+}

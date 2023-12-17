@@ -1,0 +1,160 @@
+{
+    "key": "group_61dd8ed6800f7",
+    "title": "Page Template",
+    "fields": [
+        {
+            "key": "field_61dd8edfd4b33",
+            "label": "",
+            "name": "page_template",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61dd8f09d4b34",
+                    "label": "Sidebar",
+                    "name": "sidebar",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-sidebar-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-01.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-02.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-03.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-05.svg\" height=\"127\" width=\"127\" \/>",
+                        "king-sidebar-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/sidebar\/sidebar-04.svg\" height=\"127\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_61dd8f21d4b35",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "radio-flex",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-column-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-02.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-03.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-04.svg\" height=\"80\" width=\"127\" \/>",
+                        "king-column-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/column\/column-05.svg\" height=\"80\" width=\"127\" \/>"
+                    },
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "default_value": "",
+                    "layout": "horizontal",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_6372b76e4e37b",
+                    "label": "Post Layout",
+                    "name": "post_layout",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "king-grid-01": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-01.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-02": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-02.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-03": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-03.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-list": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-04.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-04": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-05.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-05": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-06.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-06": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-07.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-07": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-08.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-08": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-09.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-09": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-10.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-10": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-11.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-11": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-12.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-12": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-13.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-13": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-14.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-14": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-15.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-15": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-16.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-16": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-17.svg\" height=\"118\" width=\"118\" \/>",
+                        "king-grid-17": "<img src=\"..\/wp-content\/themes\/king\/layouts\/imgs\/templates\/posts\/posts-18.svg\" height=\"118\" width=\"118\" \/>"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 1,
+                    "other_choice": 0,
+                    "layout": "horizontal",
+                    "save_other_choice": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "king_page_hot.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "king_page_nsfw.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "king_page_reactions.php"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "king_page_trend.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1675961798
+}

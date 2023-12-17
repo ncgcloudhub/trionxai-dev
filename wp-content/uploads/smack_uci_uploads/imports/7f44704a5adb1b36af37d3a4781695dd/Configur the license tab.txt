@@ -1,0 +1,63 @@
+MemberPress User Manual
+Support Home 
+Pre-Sales 
+Getting Started
+ 
+Using MemberPress 
+Extensions 
+Advanced Topics 
+How To FAQ's
+Configuring the License tab
+
+
+The "License" tab in "Settings" is used for activating your license key so that you will receive automatic updates for MemberPress and the various add-ons associated with MemberPress.
+
+If you do not have access to the Settings page, and Members the only option under MemberPress, you can still follow the process below to find your key, you will just enter it on the Members screen instead of the License tab under Settings. You can also refer to these instructions.
+
+Finding and Copying Your License Key
+The first step in activating your license key is to log in to your MemberPress account and find your license key. You can log in to your account here: https://memberpress.com/sign-in/.
+
+Once you are logged in, click on the Downloads tab and you should see your license key as shown here:
+
+
+
+
+Copy your license key so that you can enter it in the License tab of the MemberPress > Settings page.
+
+Activating Your License Key
+Now that you have your license key, you will need to login to your site and go to MemberPress > Settings > License tab. Once there, you will see an input field where you will paste your license key to:
+
+Note: If you don't see the Settings option under MemberPress follow these instructions instead.
+
+
+
+Click the "Activate License Key" button after pasting the license key in to activate your license key. It should look like this after activating your key:
+
+You will now see an option to Include MemberPress edge releases in automatic updates. Don't check this box unless one of our support team has instructed you to do so. The edge builds can sometimes be unstable and cause issues making MemberPress not behave the way it should. The edge builds are mostly used for the development of MemberPress.
+
+
+
+Finally, click the Update Options" button to ensure the activation sticks.
+
+MemberPress.com Account Login
+This option is used to log in to your MemberPress.com account. This option is typically used in conjunction with connecting to Stripe Connect since you need to login to your MemberPress.com account to connect your Stripe Connect payment gateway to MemberPress. 
+
+If you click on the Account Login button, you will be prompted to log in to your MemberPress.com account:
+
+
+
+The Currently Installed Version of MemberPress
+The license tab shows what version of MemberPress your site is currently running. You can find this here:
+
+
+
+Did this answer your question?
+ 
+Last updated on December 9, 2022
+Search
+Toggle Search
+CATEGORIES
+Installation and Upgrading
+Configuring Settings 
+Supported Payment Gateways
+© MemberPress 2023. Powered by Help Scout

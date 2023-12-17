@@ -1,0 +1,141 @@
+[24-Jun-2023 23:04:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after()
+#2 /home/triotbdw/public_html/wp-admin/includes/class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3258): WP_Upgrader->run()
+#4 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run()
+#5 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install()
+#6 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page()
+#8 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/triotbdw/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/triotbdw/public_html/wp-admin/themes.php(10): require_once('/home/triotbdw/...')
+#12 {main}
+  thrown in /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[24-Jun-2023 23:05:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after()
+#2 /home/triotbdw/public_html/wp-admin/includes/class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3258): WP_Upgrader->run()
+#4 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run()
+#5 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install()
+#6 /home/triotbdw/public_html/wp-content/themes/king/includes/plugins/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page()
+#8 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#9 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/triotbdw/public_html/wp-admin/admin.php(259): do_action()
+#11 /home/triotbdw/public_html/wp-admin/themes.php(10): require_once('/home/triotbdw/...')
+#12 {main}
+  thrown in /home/triotbdw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+[29-Jun-2023 22:29:09 UTC] PHP Warning:  Attempt to read property "user_login" on bool in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 975
+[29-Jun-2023 22:29:09 UTC] PHP Warning:  Attempt to read property "user_login" on bool in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 975
+[03-Sep-2023 06:27:27 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[03-Sep-2023 06:27:29 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[03-Sep-2023 06:27:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[03-Sep-2023 06:27:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[03-Sep-2023 06:27:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[03-Sep-2023 06:27:53 UTC] PHP Warning:  Undefined array key "creact" in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 341
+[03-Sep-2023 06:27:53 UTC] PHP Warning:  Undefined array key "max_depth" in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 322
+[03-Sep-2023 06:29:01 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php:768
+Stack trace:
+#0 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(308): king_reactions_box()
+#1 /home/triotbdw/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/triotbdw/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/triotbdw/public_html/wp-admin/admin-ajax.php(203): do_action()
+#4 {main}
+  thrown in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 768
+[20-Sep-2023 06:15:10 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 930
+[26-Sep-2023 02:47:30 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[26-Sep-2023 02:47:30 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 618
+[02-Oct-2023 04:44:39 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/theme.php on line 930
+[02-Oct-2023 05:45:41 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[02-Oct-2023 05:45:44 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[02-Oct-2023 05:45:44 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 618
+[02-Oct-2023 05:45:48 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[02-Oct-2023 05:45:48 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[02-Oct-2023 05:45:49 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 617
+[02-Oct-2023 05:45:51 UTC] PHP Warning:  Undefined array key 0 in /home/triotbdw/public_html/wp-content/themes/king/includes/post.php on line 618
+[07-Oct-2023 01:52:46 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/public_html/wp-includes/functions.php on line 5643
+[08-Oct-2023 01:51:01 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/public_html/wp-includes/functions.php on line 5643
+[09-Oct-2023 00:35:48 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[09-Oct-2023 00:40:29 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[09-Oct-2023 01:52:52 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[13-Oct-2023 01:45:51 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[14-Oct-2023 01:47:41 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[15-Oct-2023 00:37:42 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[15-Oct-2023 00:44:51 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[15-Oct-2023 01:49:13 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[25-Oct-2023 01:45:49 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[26-Oct-2023 00:37:02 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[26-Oct-2023 00:42:25 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[26-Oct-2023 01:48:26 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[28-Oct-2023 00:37:13 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[28-Oct-2023 00:42:51 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[28-Oct-2023 01:49:03 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[31-Oct-2023 00:36:12 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[31-Oct-2023 00:41:36 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[31-Oct-2023 01:48:57 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[03-Nov-2023 00:37:04 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[03-Nov-2023 00:42:24 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[03-Nov-2023 01:48:12 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[04-Nov-2023 01:48:30 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[05-Nov-2023 01:47:44 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[06-Nov-2023 02:46:04 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[07-Nov-2023 02:47:22 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[08-Nov-2023 02:46:51 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[09-Nov-2023 02:54:09 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[10-Nov-2023 02:48:42 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[11-Nov-2023 02:48:07 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[12-Nov-2023 02:47:25 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[13-Nov-2023 02:48:18 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[14-Nov-2023 02:52:03 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[15-Nov-2023 02:48:01 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[18-Nov-2023 02:48:07 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[19-Nov-2023 02:47:58 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[20-Nov-2023 02:47:56 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[21-Nov-2023 02:48:22 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[24-Nov-2023 02:51:56 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/test.trionxai.com/wp-includes/functions.php on line 5643
+[25-Nov-2023 02:50:23 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[26-Nov-2023 02:48:32 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[27-Nov-2023 01:38:01 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[27-Nov-2023 01:44:43 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[27-Nov-2023 02:51:29 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643
+[28-Nov-2023 02:48:32 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/triotbdw/dev.trionxai.com/wp-includes/functions.php on line 5643

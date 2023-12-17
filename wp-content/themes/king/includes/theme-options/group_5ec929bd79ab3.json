@@ -1,0 +1,76 @@
+{
+    "key": "group_5ec929bd79ab3",
+    "title": "Category Options",
+    "fields": [
+        {
+            "key": "field_6096ce9cb70e1",
+            "label": "Category For",
+            "name": "category_for",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "This category will be available only for selected post type",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "for_news": "News",
+                "for_video": "Video",
+                "for_image": "Image",
+                "for_music": "Music",
+                "for_list": "List",
+                "for_poll": "Poll",
+                "for_trivia": "Trivia Quiz",
+                "for_link": "Link"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "save_custom": 0
+        },
+        {
+            "key": "field_5fe71d5564615",
+            "label": "Category Posts Free",
+            "name": "category_for_free",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Enable this option if you like show posts in this category for <strong>Not Premium Users.<\/strong> ( This option only available if Membership enabled in Theme Settings )",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "category"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1673816137
+}

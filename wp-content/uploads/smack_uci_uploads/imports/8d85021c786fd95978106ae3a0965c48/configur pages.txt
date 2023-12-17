@@ -1,0 +1,51 @@
+MemberPress User Manual
+Support Home 
+Pre-Sales 
+Getting Started
+ 
+Using MemberPress 
+Extensions 
+Advanced Topics 
+How To FAQ's
+Configuring the Pages tab
+
+
+The "Pages" tab in "Settings" is used for configuring your basic MemberPress pages. Below is a description of these options based on their title.
+
+Reserved Pages
+MemberPress requires a handful of pages for its operation. Here is where you can tell MemberPress which pages to use on your site. The pages marked with an * are required and must be set. If " - Auto Create New Page - " is selected when you click on "Update Options", the page(s) will be created and configured automatically for you. If you have existing pages you'd rather use, select them from the drop down menu.
+
+You do not have to put any content on these pages, although if you do, MemberPress will add its content below yours. Below is a detailed description of each page and its function ( please click on each page name to learn how to create, edit, and use these pages):
+
+Thank You Page - The thank you page is the page your members will be shown after they purchase one of your Memberships. Typically you'll want to hide this page from the front end navigation menus.
+
+Account Page - After a member logs into your site, they are normally taken to this page unless you specify otherwise in the Options. Here the member can update their profile information, change their password, view payment histories, and upgrade/cancel their subscriptions. You will normally want to show this page in your front end navigation menus.
+
+Login Page - This one is pretty straightforward, this page shows a login form where members can login to your site and access any content they have paid for. This page will also show a forgot password link in case the user can't remember their password.
+
+Group and Membership Pages Slugs
+Group Pages Slug - the text you set here will be your slug for all your MemberPress Group Pricing pages. For example, if you enter "plans" as your slug and you have a group called "Trial and Paid," your URL would look like https://wwww.yoursite.com/plans/trial-and-paid/ by default.
+
+Membership Pages Slug - the text you set here will be your slug for all your MemberPress Membership Registration pages. For example, if you enter "subscribe" as your slug and you have a membership called "Gold," your URL would look like https://wwww.yoursite.com/subscribe/gold/ by default.
+
+Note: It isn't recommended that you change these values if you already have existing groups and membership pages on a production membership site because all your URLs for them will change (WordPress will attempt to redirect from old URLs to new URLs).
+
+Unauthorized Access
+Redirect unauthorized visitors to a specific URL - Enabling this setting allows you to redirect users to a specific page on your site instead of just seeing your default unauthorized message. To learn more about this powerful feature and what you can accomplish with it, please visit this page.
+
+Show an excerpt to unauthorized visitors - Enable this option if you would like to show some type of excerpt on your protected pages for unauthorized visitors. This can be set to "More Tag", "Post Excerpt", or "Custom". When set to "Custom" you can select the number of characters that the user will see, which is useful if you would like to show more or less than the default post excerpt of 55 characters. Also when "Custom" is selected, HTML tags are stripped out, so all formatting would be lost. Just plain text would be shown.
+
+Show a login form on pages containing unauthorized content - If you would like to show a login form on any page that has unauthorized content, enable this option.
+
+Default Unauthorized Message - Clicking this link will reveal a live editor where you can enter the default unauthorized message. Your unauthorized users will see this message on all protected pages that they are unauthorized to see unless you have set up a custom unauthorized message per rule. You can learn more about managing this per page, post, or custom post type here.
+
+Did this answer your question?
+ 
+Last updated on December 9, 2022
+Search
+Toggle Search
+CATEGORIES
+Installation and Upgrading
+Configuring Settings 
+Supported Payment Gateways
+© MemberPress 2023. Powered by Help Scout
