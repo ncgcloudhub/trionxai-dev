@@ -41,7 +41,7 @@ define( 'WP_CACHE', true );
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'triotbdw_wp183' );
+define( 'DB_NAME', 'triotbdw_dev1' );
 
 /** Database username */
 define( 'DB_USER', 'triotbdw_wp183' );

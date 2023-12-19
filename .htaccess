@@ -1,33 +1,43 @@
 # BEGIN LSCACHE
-## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block!
+
 <IfModule LiteSpeed>
 RewriteEngine on
 CacheLookup on
 RewriteRule .* - [E=Cache-Control:no-autoflush]
 RewriteRule \.litespeed_conf\.dat - [F,L]
 
-### marker CACHE RESOURCE start ###
-RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
-### marker CACHE RESOURCE end ###
+### marker CACHE RESOURCE start
 
-### marker FAVICON start ###
+RewriteRule wp-content/._/[^/]_(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+
+### marker CACHE RESOURCE end
+
+### marker FAVICON start
+
 RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
-### marker FAVICON end ###
 
-### marker WEBP start ###
+### marker FAVICON end
+
+### marker WEBP start
+
 RewriteCond %{HTTP_ACCEPT} "image/webp"
 RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
-RewriteCond %{HTTP_USER_AGENT} iPhone.*Version/(\d{2}).*Safari
+RewriteCond %{HTTP_USER_AGENT} iPhone.*Version/(\d{2})._Safari
 RewriteCond %1 >13
-RewriteRule .* - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
-### marker WEBP end ###
+RewriteRule ._ - [E=Cache-Control:vary=%{ENV:LSCACHE_VARY_VALUE}+webp]
 
-### marker DROPQS start ###
+### marker WEBP end
+
+### marker DROPQS start
+
 CacheKeyModify -qs:fbclid
 CacheKeyModify -qs:gclid
-CacheKeyModify -qs:utm*
-CacheKeyModify -qs:_ga
-### marker DROPQS end ###
+CacheKeyModify -qs:utm\*
+CacheKeyModify -qs:\_ga
+
+### marker DROPQS end
 
 </IfModule>
 ## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
@@ -38,9 +48,13 @@ CacheKeyModify -qs:_ga
 # END NON_LSCACHE
 
 # BEGIN WordPress
+
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+
 # dynamically generated, and should only be modified via WordPress filters.
+
 # Any changes to the directives between these markers will be overwritten.
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
@@ -54,7 +68,9 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 # BEGIN Security Block
+
 # Block the include-only files.
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -66,9 +82,12 @@ RewriteRule ^wp-includes/theme-compat/ - [F,L]
 </IfModule>
 
 # Disable directory listing
+
 Options All -Indexes
 
 # Remove header with PHP version
+
 Header always unset X-Powered-By
 Header unset X-Powered-By
+
 # END Security Block
